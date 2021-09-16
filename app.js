@@ -1,4 +1,6 @@
 const i18nextMiddleware = require('i18next-express-middleware');
+const filesystemBackend = require('i18next-node-fs-backend');
+const RateLimit = require('express-rate-limit');
 const cookieParser = require('cookie-parser');
 const createError = require('http-errors');
 const express = require('express');
@@ -7,7 +9,6 @@ const logger = require('morgan');
 const path = require('path');
 
 const indexRouter = require('./routes/index');
-const usersRouter = require('./routes/users');
 
 const keys = require('./config/keys');
 const enTranslations = require('./locales/en.json');
@@ -17,7 +18,7 @@ const app = express();
 
 i18next
     .use(i18nextMiddleware.LanguageDetector)
-    .use(FilesystemBackend)
+    .use(filesystemBackend)
     .init({
         detection: {
             order: ['querystring', 'cookie'],
@@ -43,10 +44,18 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(i18nextMiddleware.handle(i18next));
 
-// TODO Add cookies
+app.use(new RateLimit({
+    windowMs: 60 * 1000,
+    max: 20
+}));
+
+app.use(
+    require('cookie-session')({
+        keys: [keys.session_secret],
+        maxAge: 30 * 24 * 60 * 60 * 1000
+    }));
 
 app.use('/', indexRouter);
-app.use('/users', usersRouter);
 
 app.use((req, res, next) => {
     next(createError(404));
