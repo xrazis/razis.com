@@ -9,6 +9,7 @@ const logger = require('morgan');
 const path = require('path');
 
 const indexRouter = require('./routes/index');
+const roomsRouter = require('./routes/rooms');
 
 const keys = require('./config/keys');
 const enTranslations = require('./locales/en.json');
@@ -56,6 +57,7 @@ app.use(
     }));
 
 app.use('/', indexRouter);
+app.use('/', roomsRouter);
 
 app.use((req, res, next) => {
     next(createError(404));
