@@ -1,6 +1,6 @@
 const nodemailer = require('nodemailer');
 
-const {email_host, email_password, email_user} = require('../config/keys')
+const {email_host, email_password, email_user} = require('../config/keys');
 
 const transport = {
     host: email_host,
