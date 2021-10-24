@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$USER_HOME$/Documents/now-ui-design-system-pro-v2.1.0/.idea/now-ui-design-system-pro-v2.1.0.iml" filepath="$USER_HOME$/Documents/now-ui-design-system-pro-v2.1.0/.idea/now-ui-design-system-pro-v2.1.0.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/razis.com.iml" filepath="$PROJECT_DIR$/.idea/razis.com.iml" />
     </modules>
   </component>

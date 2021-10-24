@@ -1,4 +1,4 @@
-const i18nextMiddleware = require('i18next-express-middleware');
+const i18nextMiddleware = require('i18next-http-middleware')
 const filesystemBackend = require('i18next-node-fs-backend');
 const RateLimit = require('express-rate-limit');
 const cookieParser = require('cookie-parser');
