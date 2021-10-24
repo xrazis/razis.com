@@ -35,10 +35,6 @@ router.get('/contact-us', (req, res) => {
     res.render('contact-us', {messageSent: false});
 });
 
-router.get('/faq', (req, res) => {
-    res.render('faq');
-});
-
 router.get('/terms-&-conditions', (req, res) => {
     res.render('terms-&-conditions');
 });
