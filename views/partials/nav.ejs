@@ -1,0 +1,47 @@
+<body>
+<!-- Navbar Light -->
+<nav
+        class="navbar navbar-expand-lg navbar-light bg-white z-index-3 py-3">
+    <div class="container">
+        <a class="navbar-brand" href="" rel="tooltip" data-placement="bottom"
+           target="_blank">
+            Razis Apartments
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+                aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navigation">
+            <ul class="navbar-nav navbar-nav-hover mx-auto">
+                <li class="nav-item px-3">
+                    <a class="nav-link" href="/">
+                        <%= t('nav.home') %>
+                    </a>
+                </li>
+
+                <li class="nav-item px-3">
+                    <a class="nav-link" href="/rooms">
+                        <%= t('nav.rooms') %>
+                    </a>
+                </li>
+
+                <li class="nav-item px-3">
+                    <a class="nav-link" href="/terms-&-conditions">
+                        <%= t('nav.terms') %>
+                    </a>
+                </li>
+
+                <li class="nav-item px-3">
+                    <a class="nav-link" href="/contact-us">
+                        <%= t('nav.contact-us') %>
+                    </a>
+                </li>
+            </ul>
+
+            <ul class="navbar-nav ms-auto">
+                <button class="btn bg-gradient-primary mb-0"><%= t('nav.book-now') %></button>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- End Navbar -->
