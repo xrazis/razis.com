@@ -1,0 +1,136 @@
+<%- include('partials/html-top.ejs') %>
+<%- include('partials/nav.ejs') %>
+
+<section class="pb-7 bg-white position-relative">
+    <div class="page-header min-vh-50" style="background-image: url(&#39;../../assets/img/bg7.jpg&#39;);">
+        <span class="mask bg-gradient-dark opacity-4"></span>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 text-center mx-auto">
+                    <h1 class="text-white mt-4 mb-1"><%= t('contact.title') %></h1>
+                    <p class="lead text-white mb-6"><%= t('contact.subtitle') %></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row mt-n7 bg-white border-radius-lg shadow z-index-3 position-relative">
+            <div class="col-lg-3 col-md-6 col-6 position-relative my-auto">
+                <div class="p-3 text-center">
+                    <div class="icon icon-shape bg-gradient-primary shadow text-center rounded-circle">
+                        <i class="ni ni-delivery-fast text-white opacity-10"></i>
+                    </div>
+                    <h5 class="mt-3 mb-1"><%= t('contact.address-title') %></h5>
+                    <p class="mb-0"><%= t('contact.address') %></p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-6 position-relative my-auto">
+                <div class="p-3 text-center">
+                    <div class="icon icon-shape bg-gradient-primary shadow text-center rounded-circle">
+                        <i class="ni ni-email-83 text-white opacity-10"></i>
+                    </div>
+                    <h5 class="mt-3 mb-1"><%= t('contact.email-title') %></h5>
+                    <p class="mb-0"><%= t('contact.email') %></p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-6 position-relative my-auto">
+                <div class="p-3 text-center">
+                    <div class="icon icon-shape bg-gradient-primary shadow text-center rounded-circle">
+                        <i class="ni ni-headphones text-white opacity-10"></i>
+                    </div>
+                    <h5 class="mt-3 mb-1"><%= t('contact.phone-title') %></h5>
+                    <p class="mb-0"><%= t('contact.phone') %></p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-6 position-relative my-auto">
+                <div class="p-3 text-center">
+                    <div class="icon icon-shape bg-gradient-primary shadow text-center rounded-circle">
+                        <i class="ni ni-bell-55 text-white opacity-10"></i>
+                    </div>
+                    <h5 class="mt-3 mb-1"><%= t('contact.manager-title') %></h5>
+                    <p class="mb-0"><%= t('contact.manager') %></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="py-5">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-8 mx-auto text-center">
+                <div class="ms-3 mb-md-5">
+                    <div class="icon icon-shape bg-gradient-secondary shadow text-center mb-4">
+                        <i class="ni ni-single-02 text-white opacity-10"></i>
+                    </div>
+                    <h3><%= t('contact.second-title') %></h3>
+                    <p>
+                        <%= t('contact.second-subtitle') %>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <div class="card card-plain">
+                    <form id="contact-form" method="post" autocomplete="off">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label><%= t('contact.first-name') %></label>
+                                    <div class="input-group mb-4">
+                                        <input class="form-control" placeholder="eg. Michael" aria-label="First Name..."
+                                               type="text">
+                                    </div>
+                                </div>
+                                <div class="col-md-6 ps-2">
+                                    <label><%= t('contact.last-name') %></label>
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" placeholder="eg. Jordan"
+                                               aria-label="Last Name...">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mb-4">
+                                <label><%= t('contact.email-address') %></label>
+                                <div class="input-group">
+                                    <input type="email" class="form-control" placeholder="eg. michael@creative-tim.com">
+                                </div>
+                            </div>
+                            <div class="mb-4">
+                                <label><%= t('contact.phone-number') %></label>
+                                <div class="input-group mb-3">
+                                    <input type="number" class="form-control ps-3" aria-label="Phone Number"
+                                           placeholder="+(1111) 32322 11">
+                                </div>
+                            </div>
+                            <div class="form-group mb-4">
+                                <label><%= t('contact.message') %></label>
+                                <textarea name="message" class="form-control border-radius-lg" placeholder="Type here"
+                                          id="message" rows="6"></textarea>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-check form-switch mb-4">
+                                        <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault"
+                                               checked="">
+                                        <label class="form-check-label"
+                                               for="flexSwitchCheckDefault"><%= t('contact.agreement') %>
+                                            <a href="javascript:;" class="text-dark text-decoration-underline-hover">
+                                                <u><%= t('contact.t-c') %></u></a>.</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <button type="submit" class="btn bg-gradient-primary w-100">
+                                        <%= t('contact.send') %></button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<%- include('partials/footer.ejs') %>
