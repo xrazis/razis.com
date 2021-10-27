@@ -79,14 +79,15 @@
                                 <div class="col-md-6">
                                     <label><%= t('contact.first-name') %></label>
                                     <div class="input-group mb-4">
-                                        <input class="form-control" placeholder="eg. Michael" aria-label="First Name..."
+                                        <input name="firstName" class="form-control" placeholder="eg. Michael"
+                                               aria-label="First Name..."
                                                type="text">
                                     </div>
                                 </div>
                                 <div class="col-md-6 ps-2">
                                     <label><%= t('contact.last-name') %></label>
                                     <div class="input-group">
-                                        <input type="text" class="form-control" placeholder="eg. Jordan"
+                                        <input name="lastName" type="text" class="form-control" placeholder="eg. Jordan"
                                                aria-label="Last Name...">
                                     </div>
                                 </div>
@@ -94,14 +95,15 @@
                             <div class="mb-4">
                                 <label><%= t('contact.email-address') %></label>
                                 <div class="input-group">
-                                    <input type="email" class="form-control" placeholder="eg. michael@creative-tim.com">
+                                    <input name="email" type="email" class="form-control"
+                                           placeholder="eg. michael@creative-tim.com">
                                 </div>
                             </div>
                             <div class="mb-4">
                                 <label><%= t('contact.phone-number') %></label>
                                 <div class="input-group mb-3">
-                                    <input type="number" class="form-control ps-3" aria-label="Phone Number"
-                                           placeholder="+(1111) 32322 11">
+                                    <input name="phoneNumber" type="number" class="form-control ps-3" aria-label="Phone
+                                     Number" placeholder="+(1111) 32322 11">
                                 </div>
                             </div>
                             <div class="form-group mb-4">
@@ -112,18 +114,45 @@
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-check form-switch mb-4">
-                                        <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault"
-                                               checked="">
+                                        <input class="form-check-input" type="checkbox" id="terms-switch"
+                                               aria-checked="false">
                                         <label class="form-check-label"
                                                for="flexSwitchCheckDefault"><%= t('contact.agreement') %>
-                                            <a href="javascript:;" class="text-dark text-decoration-underline-hover">
+                                            <a href="/terms-&-conditions" class="text-dark
+                                            text-decoration-underline-hover">
                                                 <u><%= t('contact.t-c') %></u></a>.</label>
                                     </div>
                                 </div>
                                 <div class="col-md-12">
-                                    <button type="submit" class="btn bg-gradient-primary w-100">
+                                    <button id="send-email" type="submit" class="btn bg-gradient-primary w-100
+                                    disabled">
                                         <%= t('contact.send') %></button>
                                 </div>
+                            </div>
+                            <div class="mt-4">
+                                <% if (messageSent === 200) { %>
+                                    <div class="alert alert-success alert-dismissible fade show" role="alert">
+                                        <span class="alert-icon"><i class="ni ni-like-2"></i></span>
+                                        <span class="alert-text">
+                                                <strong><%= t('contact.success-title') %>!</strong> <%= t
+                                            ('contact.success-body') %></span>
+                                        <button type="button" class="btn-close" data-bs-dismiss="alert"
+                                                aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                <% } else if (messageSent === 400) { %>
+                                    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                                        <span class="alert-icon"><i class="ni ni-like-2"></i></span>
+                                        <span class="alert-text">
+                                                <strong><%= t('contact.failure-title') %>!</strong>
+                                                <%= t('contact.failure-body') %></span>
+                                        <button type="button" class="btn-close" data-bs-dismiss="alert"
+                                                aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                <% } %>
                             </div>
                         </div>
                     </form>
