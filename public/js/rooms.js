@@ -8,3 +8,4 @@ if (document.getElementById('typed')) {
         loop: true
     });
 }
+

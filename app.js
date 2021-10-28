@@ -20,13 +20,13 @@ const {getReviews} = require('./actions/google_maps');
 const app = express();
 
 // getReviews();
-
-const job = new CronJob(
-    '0 0 * * SUN',
-    getReviews(),
-);
-
-job.start();
+//
+// const job = new CronJob(
+//     '0 0 * * SUN',
+//     getReviews(),
+// );
+//
+// job.start();
 
 i18next
     .use(i18nextMiddleware.LanguageDetector)
@@ -74,7 +74,6 @@ app.use((req, res, next) => {
     next(createError(404));
 });
 
-// error handler
 app.use((err, req, res) => {
     res.locals.message = err.message;
     res.locals.error = req.app.get('env') === 'development' ? err : {};

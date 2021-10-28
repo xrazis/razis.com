@@ -7,7 +7,9 @@
     "dev": "nodemon --ignore data/ ./bin/www "
   },
   "nodemonConfig": {
-    "ignore": ["data/*"],
+    "ignore": [
+      "data/*"
+    ],
     "delay": 2500
   },
   "dependencies": {
