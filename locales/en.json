@@ -9,7 +9,8 @@
     },
     "buttons": {
       "contact": "Contact us",
-      "read-more": "Read More"
+      "read-more": "Read More",
+      "discover": "Discover"
     },
     "header": {
       "title": "Razis Apartments",
@@ -66,6 +67,35 @@
       "success-body": "We will get back to you as soon as possible!",
       "failure-title": "Failure",
       "failure-body": "Something went wrong with the form validation! Please be sure to enter correct values and do not place any malicious content."
+    },
+    "rooms": {
+      "title": "Your",
+      "typed": {
+        "1": "Experiences",
+        "2": "Memories",
+        "3": "Moments"
+      }
+    },
+    "room-types": {
+      "title": "Room Types",
+      "studios": "Studios",
+      "studios-text": "Warner Music Group announced today it’s acquiring the selected assets of the music platform  Songkick, including its app for finding concerts and the company’s trademark. Songkick has  been involved in a lawsuit against the major…\n",
+      "writers-room": "Writers Room",
+      "writers-room-text": "Warner Music Group announced today it’s acquiring the selected assets of the music platform  Songkick, including its app for finding concerts and the company’s trademark. Songkick has  been involved in a lawsuit against the major…\n",
+      "apartments": "Apartments",
+      "apartments-text": "Warner Music Group announced today it’s acquiring the selected assets of the music platform  Songkick, including its app for finding concerts and the company’s trademark. Songkick has  been involved in a lawsuit against the major…\n",
+      "storehouse": "Storehouse",
+      "storehouse-text": "Warner Music Group announced today it’s acquiring the selected assets of the music platform  Songkick, including its app for finding concerts and the company’s trademark. Songkick has  been involved in a lawsuit against the major…\n"
+    },
+    "facilities": {
+      "small-title": "Our Facilities",
+      "title": "More than an accommodation business",
+      "pool": "Pool",
+      "pool-text": "Over the span of the satellite record, Arctic sea ice has been declining significantly, while sea ice in the Antarctica's increased very slightly",
+      "pool-quote": "Over the span of the satellite record, Arctic sea ice has been declining significantly, while sea ice in the Antarctica's increased very slightly",
+      "snack-bar": "Snack Bar",
+      "snack-bar-text": "Relax during long summer days beside the cool pool of Razis, while reading, listening to music and meeting new people. Treat yourself to a lavish meal, or an elaborate cocktail until late at night. Be sure to try out our famous Greek breakfast and our imaginative sandwiches.",
+      "snack-bar-quote": "Over the span of the satellite record, Arctic sea ice has been declining significantly, while sea ice in the Antarctica's increased very slightly"
     }
   }
 }

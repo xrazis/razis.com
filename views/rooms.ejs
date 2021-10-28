@@ -1,0 +1,209 @@
+<%- include('partials/html-top.ejs') %>
+<%- include('partials/nav.ejs') %>
+
+<header>
+    <div class="page-header min-vh-50 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 my-auto">
+                    <h2 class="mb-0"><%= t('rooms.title') %> <span id="typed"></span></h2>
+                    <div id="typed-strings">
+                        <h2><%= t('rooms.typed.1') %></h2>
+                        <h2><%= t('rooms.typed.2') %></h2>
+                        <h2><%= t('rooms.typed.3') %></h2>
+                    </div>
+                    <div class="buttons">
+                        <a href="#types" class="btn bg-gradient-warning mt-4"><%= t('buttons.discover') %></a>
+                    </div>
+                </div>
+                <div class="col-lg-8 ps-5 pe-0">
+                    <div class="row">
+                        <div class="col-lg-3 col-6">
+                            <img class="w-100 border-radius-lg h-50 shadow mt-0 mt-lg-7"
+                                 src="../../assets/img/project12.jpg" alt="">
+                        </div>
+                        <div class="col-lg-3 col-6">
+                            <img class="w-100 border-radius-lg h-50 shadow" src="../../assets/img/project13.jpg" alt="">
+                            <img class="w-100 border-radius-lg h-50 shadow mt-4" src="../../assets/img/project14.jpg"
+                                 alt="">
+                        </div>
+                        <div class="col-lg-3 col-6">
+                            <img class="w-100 border-radius-lg h-50 shadow mt-0 mt-lg-5"
+                                 src="../../assets/img/project19.jpg" alt="">
+                            <img class="w-100 border-radius-lg h-50 shadow mt-4" src="../../assets/img/project16.jpg"
+                                 alt="">
+                        </div>
+                        <div class="col-lg-3 col-6">
+                            <img class="w-100 border-radius-lg h-50 shadow mt-3" src="../../assets/img/project17.jpg"
+                                 alt="">
+                            <img class="w-100 border-radius-lg h-50 shadow mt-4" src="../../assets/img/project18.jpg"
+                                 alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<section id="types" class="py-8">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 ms-auto me-auto text-center mt-7 mb-5">
+                <h2><%= t('room-types.title') %></h2>
+            </div>
+            <div class="col-lg-12">
+                <div class="row">
+                    <div class="col-lg-6 justify-content-center d-flex flex-column">
+                        <div class="card rounded-3">
+                            <div class="d-block blur-shadow-image">
+                                <img src="../../assets/img/project23.jpg" alt="img-blur-shadow-blog-2"
+                                     class="img-fluid shadow rounded-3">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 justify-content-center d-flex flex-column ps-lg-5 pt-lg-0 pt-3">
+                        <h3>
+                            <a href="rooms/studios" class="text-dark text-decoration-underline-hover">
+                                <%= t('room-types.studios') %>
+                            </a>
+                        </h3>
+                        <p>
+                            <%= t('room-types.studios-text') %>
+                        </p>
+                        <a href="rooms/studios" class="btn bg-gradient-info btn-sm w-50" role="button">
+                            <%= t('buttons.read-more') %>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-12 mt-5">
+                <div class="row flex-row-reverse">
+                    <div class="col-lg-6 justify-content-center d-flex flex-column">
+                        <div class="card rounded-3">
+                            <div class="blur-shadow-image">
+                                <img src="../../assets/img/project24.jpg" alt="img-blur-shadow-blog-2"
+                                     class="img-fluid shadow rounded-3">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 pe-lg-5 justify-content-center d-flex flex-column pt-lg-0 pt-3">
+                        <h3>
+                            <a href="rooms/writers-room" class="text-dark text-decoration-underline-hover">
+                                <%= t('room-types.writers-room') %>
+                            </a>
+                        </h3>
+                        <p>
+                            <%= t('room-types.writers-room-text') %>
+                        </p>
+                        <a href="rooms/writers-room" class="btn bg-gradient-info btn-sm w-50" role="button">
+                            <%= t('buttons.read-more') %>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-12 mt-5">
+                <div class="row">
+                    <div class="col-lg-6 justify-content-center d-flex flex-column">
+                        <div class="card rounded-3">
+                            <div class="d-block blur-shadow-image">
+                                <img src="../../assets/img/project23.jpg" alt="img-blur-shadow-blog-2"
+                                     class="img-fluid shadow rounded-3">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 justify-content-center d-flex flex-column ps-lg-5 pt-lg-0 pt-3">
+                        <h3>
+                            <a href="rooms/apartments" class="text-dark text-decoration-underline-hover">
+                                <%= t('room-types.apartments') %>
+                            </a>
+                        </h3>
+                        <p>
+                            <%= t('room-types.apartments-text') %>
+                        </p>
+                        <a href="rooms/apartments" class="btn bg-gradient-info btn-sm w-50" role="button">
+                            <%= t('buttons.read-more') %>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-12 mt-5">
+                <div class="row flex-row-reverse">
+                    <div class="col-lg-6 justify-content-center d-flex flex-column">
+                        <div class="card rounded-3">
+                            <div class="blur-shadow-image">
+                                <img src="../../assets/img/project24.jpg" alt="img-blur-shadow-blog-2"
+                                     class="img-fluid shadow rounded-3">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 pe-lg-5 justify-content-center d-flex flex-column pt-lg-0 pt-3">
+                        <h3>
+                            <a href="rooms/storehouse" class="text-dark text-decoration-underline-hover">
+                                <%= t('room-types.storehouse') %>
+                            </a>
+                        </h3>
+                        <p>
+                            <%= t('room-types.storehouse-text') %>
+                        </p>
+                        <a href="rooms/storehouse" class="btn bg-gradient-info btn-sm w-50" role="button">
+                            <%= t('buttons.read-more') %>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="py-5">
+    <div class="container">
+        <div class="row mb-5">
+            <div class="col-lg-8 text-center mx-auto">
+                <p class="mb-1 text-success"><%= t('facilities.small-title') %></p>
+                <h3><%= t('facilities.title') %></h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 position-relative">
+                <img class="image-left border-radius-lg img-fluid shadow position-relative top-0 end-0 ms-md-5 bg-cover"
+                     src="../../assets/img/project23.jpg">
+                <p class="blockquote border border-primary rounded w-50 p-3 text-sm text-primary float-md-end mx-auto mt-4 me-md-n2">
+                    <%= t('facilities.pool-quote') %>
+                </p>
+            </div>
+            <div class="col-md-5">
+                <img class="image-right border-radius-lg img-fluid shadow ms-md-n4 mb-4 mt-md-8 position-relative bg-cover"
+                     src="../../assets/img/project24.jpg">
+                <div class="px-4">
+                    <h3 class="mb-4"><%= t('facilities.pool') %></h3>
+                    <p>
+                        <%= t('facilities.pool-text') %>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-6 position-relative">
+                <img class="image-left border-radius-lg img-fluid shadow position-relative top-0 end-0 ms-md-5 bg-cover"
+                     src="../../assets/img/project4.jpg">
+                <p class="blockquote border border-info rounded w-50 p-3 text-sm text-info float-md-end mt-4 me-md-n2 mx-auto">
+                    <%= t('facilities.snack-bar-quote') %>
+                </p>
+            </div>
+            <div class="col-md-5">
+                <img class="image-right border-radius-lg img-fluid shadow ms-md-n4 mb-4 mt-md-8 position-relative bg-cover"
+                     src="../../assets/img/project21.jpg">
+                <div class="px-4">
+                    <h3 class="mb-4"><%= t('facilities.snack-bar') %></h3>
+                    <p>
+                        <%= t('facilities.snack-bar-text') %>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<%- include('partials/footer.ejs') %>
+<script type="text/javascript" src="/js/rooms.js"/>
