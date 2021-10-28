@@ -20,9 +20,9 @@ const {getReviews} = require('./actions/google_maps');
 const app = express();
 
 // getReviews();
-//
+
 // const job = new CronJob(
-//     '0 0 * * SUN',
+//     '0 0 * * * 6',
 //     getReviews(),
 // );
 //

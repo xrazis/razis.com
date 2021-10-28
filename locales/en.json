@@ -97,6 +97,20 @@
       "snack-bar": "Snack Bar",
       "snack-bar-text": "Relax during long summer days beside the cool pool of Razis, while reading, listening to music and meeting new people. Treat yourself to a lavish meal, or an elaborate cocktail until late at night. Be sure to try out our famous Greek breakfast and our imaginative sandwiches.",
       "snack-bar-quote": "Over the span of the satellite record, Arctic sea ice has been declining significantly, while sea ice in the Antarctica's increased very slightly"
+    },
+    "social-share": {
+      "title": "Thank you for your support!",
+      "subtitle": "Creating unique experiences"
+    },
+    "our-effort": {
+      "title-small": "Our effort",
+      "title": "The powerful design system",
+      "text": "The way to survive in modern society is to be an ascetic. It is to retreat from society. There’s too\n                    much society everywhere you go…The only solution is turn it off.",
+      "icons": {
+        "1": "Experienced Hosts",
+        "2": "Convenient Location",
+        "3": "Awesome Team"
+      }
     }
   }
 }
