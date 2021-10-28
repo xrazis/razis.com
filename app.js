@@ -3,6 +3,7 @@ const filesystemBackend = require('i18next-node-fs-backend');
 const RateLimit = require('express-rate-limit');
 const cookieParser = require('cookie-parser');
 const createError = require('http-errors');
+const CronJob = require('cron').CronJob;
 const express = require('express');
 const i18next = require('i18next');
 const logger = require('morgan');
@@ -14,8 +15,18 @@ const roomsRouter = require('./routes/rooms');
 const keys = require('./config/keys');
 const enTranslations = require('./locales/en.json');
 const elTranslations = require('./locales/el.json');
+const {getReviews} = require('./actions/google_maps');
 
 const app = express();
+
+// getReviews();
+
+const job = new CronJob(
+    '0 0 * * SUN',
+    getReviews(),
+);
+
+job.start();
 
 i18next
     .use(i18nextMiddleware.LanguageDetector)

@@ -1,12 +1,20 @@
 const express = require('express');
 const router = express.Router();
+const fs = require('fs');
 
 const {email_user} = require('../config/keys');
 const transporter = require('../connections/mailer_conn');
 const {emailSchema} = require('../schemas/joi');
 
 router.get('/', (req, res) => {
-    res.render('index', {title: 'Express'});
+    try {
+        const data = fs.readFileSync('./data/reviews.json', 'utf8');
+        const testimonials = JSON.parse(data);
+
+        res.render('index', {'testimonials': testimonials});
+    } catch (err) {
+        res.render('index', {'testimonials': false});
+    }
 });
 
 router.post('/contact-us', async (req, res) => {
@@ -48,6 +56,6 @@ router.get('/404', (req, res) => {
 
 router.get('/500', (req, res) => {
     res.render('500');
-})
+});
 
 module.exports = router;
