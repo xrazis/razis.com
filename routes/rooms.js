@@ -6,19 +6,19 @@ router.get('/rooms', (req, res) => {
 });
 
 router.get('/rooms/storehouse', (req, res) => {
-    res.render('storehouse');
+    res.render('rooms/storehouse');
 });
 
 router.get('/rooms/writers-room', (req, res) => {
-    res.render('writers-room');
+    res.render('rooms/writers-room');
 });
 
 router.get('/rooms/apartments', (req, res) => {
-    res.render('apartments');
+    res.render('rooms/apartments');
 });
 
 router.get('/rooms/studios', (req, res) => {
-    res.render('studios');
+    res.render('rooms/studios');
 });
 
 module.exports = router;
