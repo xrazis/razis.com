@@ -148,6 +148,43 @@
         "2": " And now I look and look around and there’s so many Kanyes I've been trying to figure out the bed design for the master bedroom at our Hidden Hills compound... and thank you for turning my personal jean jacket into a couture piece. ",
         "3": " The way to survive in modern society is to be an ascetic. It is to retreat from society. There’s too much society everywhere you go…The only solution is turn it off. "
       }
+    },
+    "tc": {
+      "title": "Terms & conditions",
+      "sidenav": {
+        "1": "General Terms",
+        "2": "Cookies",
+        "3": "Hyperlinking",
+        "4": "Privacy",
+        "5": "Reservation of Rights",
+        "6": "Disclaimer"
+      },
+      "general": {
+        "1": "Welcome to Razis Apartments!",
+        "2": "By accessing this website we assume you accept these terms and conditions. Do not continue to use Razis Apartments if you do not agree to take all of the terms and conditions stated on this page.",
+        "3": "The following terminology applies to these Terms and Conditions, Privacy Statement and  Disclaimer Notice and all Agreements: \"Client\", \"You\" and \"Your\" refers to you, the person log on this website and compliant to the Company’s terms and conditions. \"The Company\", \"Ourselves\", \"We\", \"Our\" and \"Us\", refers to our Company. \"Party\", \"Parties\", or \"Us\", refers to both the Client and ourselves. All terms refer to the offer, acceptance and consideration of payment necessary to undertake the process of our assistance to the Client in the most appropriate manner for the express purpose of meeting the Client’s needs in respect of provision of the Company’s stated services, in accordance with and subject to, prevailing law of Greece. Any use of the above terminology or other words in the singular, plural, capitalization and/or he/she or they, are taken as interchangeable and therefore as referring to same."
+      },
+      "cookies": {
+        "1": "We employ the use of cookies. By accessing Razis Apartments, you agree to use such cookies.",
+        "2": "Cookies are used by our website to enable the functionality of certain areas to make it easier for people visiting our website. Such an example is the language selection cookie. No third party cookies are being used."
+      },
+      "hyperlinking": {
+        "1": "We will approve link requests from these organizations if we decide that: (a) the link would not make us look unfavorably to ourselves or to our accredited businesses; (b) the organization does not have any negative records with us; (c) the benefit to us from the visibility of the hyperlink compensates the absence of Razis Apartments; and (d) the link is in the context of general resource information.",
+        "2": "Approved organizations may hyperlink to our Website as follows:",
+        "3": "By use of our corporate name; or",
+        "4": "By use of the uniform resource locator being linked to; or",
+        "5": "By use of any other description of our Website being linked to that makes sense within the context and format of content on the linking party’s site.",
+        "6": "No use of Razis Apartments logo or other artwork will be allowed for linking absent a trademark license agreement."
+      },
+      "privacy": {
+        "1": "We handle your data according to the GDPR. Please contact us if you want to exercise your right to be forgotten"
+      },
+      "rights": {
+        "1": "We reserve the right to request that you remove all links or any particular link to our Website. You approve to immediately remove all links to our Website upon request. We also reserve the right to amend these terms and conditions and it’s linking policy at any time. By continuously linking to our Website, you agree to be bound to and follow these linking terms and conditions."
+      },
+      "disclaimer": {
+        "1": "As long as the website and the information and services on the website are provided free of charge, we will not be liable for any loss or damage of any nature."
+      }
     }
   }
 }
