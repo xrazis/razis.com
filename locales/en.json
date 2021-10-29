@@ -111,6 +111,43 @@
         "2": "Convenient Location",
         "3": "Awesome Team"
       }
+    },
+    "room": {
+      "experience": "Book your new experience",
+      "memories": "Create new memories",
+      "the-room": "The Room"
+    },
+    "studios": {
+      "title": "Apartment",
+      "desc": {
+        "1": " This is the paragraph where you can write more details about your product. Keep you user engaged by providing meaningful information. Remember that by this time, the user is curious, otherwise he wouldn't scroll to get here. Add a button if you want the user to see more. We are here to make life better. ",
+        "2": " And now I look and look around and there’s so many Kanyes I've been trying to figure out the bed design for the master bedroom at our Hidden Hills compound... and thank you for turning my personal jean jacket into a couture piece. ",
+        "3": " The way to survive in modern society is to be an ascetic. It is to retreat from society. There’s too much society everywhere you go…The only solution is turn it off. "
+      }
+    },
+    "writers-room": {
+      "title": "Apartment",
+      "desc": {
+        "1": " This is the paragraph where you can write more details about your product. Keep you user engaged by providing meaningful information. Remember that by this time, the user is curious, otherwise he wouldn't scroll to get here. Add a button if you want the user to see more. We are here to make life better. ",
+        "2": " And now I look and look around and there’s so many Kanyes I've been trying to figure out the bed design for the master bedroom at our Hidden Hills compound... and thank you for turning my personal jean jacket into a couture piece. ",
+        "3": " The way to survive in modern society is to be an ascetic. It is to retreat from society. There’s too much society everywhere you go…The only solution is turn it off. "
+      }
+    },
+    "apartments": {
+      "title": "Apartment",
+      "desc": {
+        "1": " This is the paragraph where you can write more details about your product. Keep you user engaged by providing meaningful information. Remember that by this time, the user is curious, otherwise he wouldn't scroll to get here. Add a button if you want the user to see more. We are here to make life better. ",
+        "2": " And now I look and look around and there’s so many Kanyes I've been trying to figure out the bed design for the master bedroom at our Hidden Hills compound... and thank you for turning my personal jean jacket into a couture piece. ",
+        "3": " The way to survive in modern society is to be an ascetic. It is to retreat from society. There’s too much society everywhere you go…The only solution is turn it off. "
+      }
+    },
+    "storehouse": {
+      "title": "Apartment",
+      "desc": {
+        "1": " This is the paragraph where you can write more details about your product. Keep you user engaged by providing meaningful information. Remember that by this time, the user is curious, otherwise he wouldn't scroll to get here. Add a button if you want the user to see more. We are here to make life better. ",
+        "2": " And now I look and look around and there’s so many Kanyes I've been trying to figure out the bed design for the master bedroom at our Hidden Hills compound... and thank you for turning my personal jean jacket into a couture piece. ",
+        "3": " The way to survive in modern society is to be an ascetic. It is to retreat from society. There’s too much society everywhere you go…The only solution is turn it off. "
+      }
     }
   }
 }

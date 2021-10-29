@@ -1,4 +1,143 @@
 <%- include('../partials/html-top.ejs') %>
 <%- include('../partials/nav.ejs') %>
 
+<header>
+    <div class="page-header min-vh-50" style="background-image: url(../../assets/img/bg45.jpg)">
+        <span class="mask bg-dark opacity-8"></span>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-white text-center">
+                    <h2 class="text-white"><%= t('room.experience') %></h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<section class="py-5 mt-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 ms-auto me-auto">
+                <h6 class="opacity-7 text-uppercase font-weight-bolder text-sm"><%= t('room.the-room') %></h6>
+                <h3 class="title mb-4"><%= t('storehouse.title') %></h3>
+                <p class="text-dark">
+                    <%= t('storehouse.desc.1') %>
+                    <br> <br>
+                    <%= t('storehouse.desc.2') %>
+                    <br> <br>
+                    <%= t('storehouse.desc.3') %>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <section class="py-5">
+        <div class="container">
+            <div class="row min-vh-25">
+                <div class="col-sm-4 col-5 mb-sm-0 mb-3">
+                    <div style="background-image: url(&#39;../../assets/img/project21.jpg&#39;)"
+                         class="w-100 h-100 border-radius-lg bg-cover"></div>
+                </div>
+                <div class="col-sm-3 col-7 mb-sm-0 mb-3">
+                    <div style="background-image: url(&#39;../../assets/img/project23.jpg&#39;)"
+                         class="w-100 h-100 border-radius-lg bg-cover"></div>
+                </div>
+                <div class="col-sm-5 mb-sm-0 mb-3">
+                    <div style="background-image: url(&#39;../../assets/img/project24.jpg&#39;)"
+                         class="w-100 h-100 border-radius-lg bg-cover"></div>
+                </div>
+            </div>
+            <div class="row min-vh-25 mt-4">
+                <div class="col-sm-3 col-7 mb-sm-0 mb-3">
+                    <div style="background-image: url(&#39;../../assets/img/pricing1.jpg&#39;)"
+                         class="w-100 h-100 border-radius-lg bg-cover"></div>
+                </div>
+                <div class="col-sm-5 col-5 mb-sm-0 mb-3">
+                    <div style="background-image: url(&#39;../../assets/img/card-blog10.jpg&#39;)"
+                         class="w-100 h-100 border-radius-lg bg-cover"></div>
+                </div>
+                <div class="col-sm-4 mb-sm-0 mb-3">
+                    <div style="background-image: url(&#39;../../assets/img/card-blog11.jpg&#39;)"
+                         class="w-100 h-100 border-radius-lg bg-cover"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="page-header min-vh-50" style="background-image: url('../../assets/img/bg21.jpg')">
+        <span class="mask bg-dark opacity-6"></span>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-white text-center">
+                    <h2 class="text-white"><%= t('room.memories') %></h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 ms-auto me-auto mt-7">
+                <h6 class="opacity-7 text-uppercase font-weight-bold text-sm"><%= t('our-effort.title-small') %></h6>
+                <h3 class="mb-4"><%= t('our-effort.title') %></h3>
+                <p class="text-dark">
+                    <%= t('our-effort.text') %>
+                </p>
+            </div>
+        </div>
+    </div>
+    <section class="py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 ms-auto">
+                    <div class="p-3 text-center border-radius-lg">
+                        <div class="icon icon-shape text-center">
+                            <i class="ni ni-calendar-grid-58 h4 text-primary"></i>
+                        </div>
+                        <h6 class="mt-3"><%= t('our-effort.icons.1') %></h6>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="p-3 text-center border-radius-lg">
+                        <div class="icon icon-shape text-center">
+                            <i class="ni ni-square-pin h4 text-primary"></i>
+                        </div>
+                        <h6 class="mt-3"><%= t('our-effort.icons.2') %></h6>
+                    </div>
+                </div>
+                <div class="col-md-3 me-auto">
+                    <div class="p-3 text-center border-radius-lg">
+                        <div class="icon icon-shape text-center">
+                            <i class="ni ni-user-run h4 text-primary"></i>
+                        </div>
+                        <h6 class="mt-3"><%= t('our-effort.icons.3') %></h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</section>
+
+<div class="py-lg-5 py-0">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <h4 class="mb-1"><%= t('social-share.title') %></h4>
+                <p class="lead mb-0"><%= t('social-share.subtitle') %></p>
+            </div>
+            <div class="col-lg-6 mt-lg-0 mt-4 d-lg-flex align-items-center justify-content-end">
+                <a href="https://www.facebook.com/sharer/sharer.php?u=https://razis.com/"
+                   class="btn btn-facebook mb-lg-0 mb-2 me-2"
+                   target="_blank">
+                    <i class="fab fa-facebook-square me-1"></i> Share
+                </a>
+                <a href="https://twitter.com/intent/tweet?text=Check out Razis Apartments!&url=https://razis.com/"
+                   class="btn btn-twitter mb-lg-0 mb-2 me-2"
+                   target="_blank">
+                    <i class="fab fa-twitter me-1"></i> Tweet
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
 <%- include('../partials/footer.ejs') %>
