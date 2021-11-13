@@ -15,29 +15,25 @@
     },
     "header": {
       "title": "Razis Apartments",
-      "text": "Find the story of Creative Tim's most complex design system and all the work that make this design available."
+      "text": "Situated on a green hill at Tsilivi, only 600 m from the local beach, Razis offers self-catering units just a 10-minute drive from Zakynthos town."
     },
     "first-section": {
       "title": "About Razis Apartments",
-      "subtitle": "The highest status people in human history are those that asked for nothing and gave everything",
-      "blockquote": "\"Over the span of the satellite record, Arctic sea ice has been declining significantly, while sea\nice in the Antarctichas increased very slightly\"",
-      "second-title": "So what does the new record for the lowest level of winter ice actually mean",
-      "text-1": "The Arctic Ocean freezes every winter and much of the sea-ice then thaws every summer, and that\n                    process will continue whatever happens with climate change. Even if the Arctic continues to be one\n                    of the fastest-warming regions of the world, it will always be plunged into bitterly cold polar dark\n                    every winter. And year-by-year, for all kinds of natural reasons, there’s huge variety of the state\n                    of the ice.",
-      "text-2": "For a start, it does not automatically follow that a record amount of ice will melt this summer.\n                    More important for determining the size of the annual thaw is the state of the weather as the\n                    midnight sun approaches and temperatures rise. But over the more than 30 years of satellite records,\n                    scientists have observed a clear pattern of decline, decade-by-decade.",
-      "text-3": "The Arctic Ocean freezes every winter and much of the sea-ice then thaws every summer, and that\n                    process will continue whatever happens with climate change. Even if the Arctic continues to be one\n                    of the fastest-warming regions of the world, it will always be plunged into bitterly cold polar dark\n                    every winter. And year-by-year, for all kinds of natural reasons, there’s huge variety of the state\n                    of the ice."
+      "blockquote": "\" Look no further for paradise on earth - Razis Apartments are the perfect choice.\"",
+      "text-1": "Razis apartments are built on a green hill with a sea view that ensures a fresh breeze even during the hottest summers days. Surrounded by olive, fig, lemon, mulberry and bay trees, and also by jasmine and many other flowers which are ideal for enjoying sunny mornings, cool afternoons and tranquil evenings.",
+      "text-2": "The property is 8 minutes walk from the beach and offers self-catering units just a 10-minute drive from Zakynthos town. Razis Apartments have a pool and offer free private on-site parking. In the swimming pool area of Razis, there is a pool bar serving refreshing drinks, as well as hot and cold dishes. Guests can use the sun beds and umbrellas free of charge, and there is also a smaller pool for the children.",
+      "text-3": "Razis air conditioned rooms feature wooden sloping ceilings and balconies with views of the sea, pool or the garden. Guests can dine at one of the taverns that can be found in Tsilivi. The village also features many bars and shops. Razis offers lighting-fast free Wi-Fi access at the whole facility."
     },
     "testimonials": {
       "testimonials": "Testimonials",
-      "title": "Some thoughts from our clients",
-      "subtitle": "If you’re selected for them you’ll also get three tickets, opportunity to access Investor Office\n                    Hours and Mentor Hours and much more all for free."
+      "title": "Some thoughts from our clients"
     },
     "photo-section": {
-      "title": "Explore our places in London",
-      "subtitle": "If you can’t decide, the answer is no. If two equally difficult paths,\n                    choose the one more painful in the short term (pain avoidance\n                    is creating an illusion of equality)."
+      "title": "Explore our place"
     },
     "faq": {
       "title": "Frequently Asked Questions",
-      "subtitle": "A lot of people don’t appreciate the moment until it’s passed. I'm not trying my hardest, and I'm not\n                    trying to do",
+      "subtitle": "If you don't find what you need here, throw us an email!",
       "q1": "How do i order?",
       "a1": "We’re not always in the position that we want to be at. We’re constantly growing. We’re\n                                constantly making mistakes. We’re constantly trying to express ourselves and actualize\n                                our dreams. If you have the opportunity to play this game\n                                of life you need to appreciate every moment. A lot of people don’t appreciate the moment\n                                until it’s passed.",
       "q2": "How can i make the payment?\n",
@@ -47,15 +43,15 @@
       "title": "Got a question?",
       "subtitle": "We'd like to talk more about what you need",
       "address-title": "Address",
-      "address": "12124 First Street, nr 54",
+      "address": "Planos 139, Zakynthos 291 00, Greece",
       "email-title": "Email",
-      "email": "hello@creative-tim.com",
+      "email": "info@razis.com",
       "phone-title": "Phone",
-      "phone": "+1(424) 535 3523",
-      "manager-title": "Contact",
-      "manager": "Andrew Samian",
+      "phone": "+30.26950-24111",
+      "manager-title": "Manager",
+      "manager": "Razis Andreas",
       "second-title": "Contact us",
-      "second-subtitle": "For further questions, including partnership opportunities, please email hello@creative-tim.com or contact using our contact form. ",
+      "second-subtitle": "For further questions, please email info@razis.com or contact using our contact form.",
       "first-name": "First Name",
       "last-name": "Last Name",
       "email-address": "Email Address",
@@ -80,23 +76,23 @@
     "room-types": {
       "title": "Room Types",
       "studios": "Studios",
-      "studios-text": "Warner Music Group announced today it’s acquiring the selected assets of the music platform  Songkick, including its app for finding concerts and the company’s trademark. Songkick has  been involved in a lawsuit against the major…\n",
+      "studios-text": "Our studios are perfect for a couple, or a lonely traveler. They consist of one double bed or two singles, with sea view or the beautiful…\n",
       "writers-room": "Writers Room",
-      "writers-room-text": "Warner Music Group announced today it’s acquiring the selected assets of the music platform  Songkick, including its app for finding concerts and the company’s trademark. Songkick has  been involved in a lawsuit against the major…\n",
+      "writers-room-text": "Legend has it that one Dutch writer lost his spark. Weeks went by without touching a pen and he was becoming desperate…\n",
       "apartments": "Apartments",
-      "apartments-text": "Warner Music Group announced today it’s acquiring the selected assets of the music platform  Songkick, including its app for finding concerts and the company’s trademark. Songkick has  been involved in a lawsuit against the major…\n",
+      "apartments-text": "Razis apartments fall into three categories. Big family room, which can accommodate up to six people, maisonettes…\n",
       "storehouse": "Storehouse",
-      "storehouse-text": "Warner Music Group announced today it’s acquiring the selected assets of the music platform  Songkick, including its app for finding concerts and the company’s trademark. Songkick has  been involved in a lawsuit against the major…\n"
+      "storehouse-text": "The old storehouse is a beautiful old renovated building built in 1939.Its main use was an additional storage…\n"
     },
     "facilities": {
       "small-title": "Our Facilities",
       "title": "More than an accommodation business",
       "pool": "Pool",
-      "pool-text": "Over the span of the satellite record, Arctic sea ice has been declining significantly, while sea ice in the Antarctica's increased very slightly",
-      "pool-quote": "Over the span of the satellite record, Arctic sea ice has been declining significantly, while sea ice in the Antarctica's increased very slightly",
+      "pool-text": "Relax during long summer days beside the cool pool of Razis, while reading, listening to music and meeting new people.",
+      "pool-quote": "\"Lovely staff, warm swimming pool, good breakfasts. Nothing is too much trouble for this family run business.\"",
       "snack-bar": "Snack Bar",
-      "snack-bar-text": "Relax during long summer days beside the cool pool of Razis, while reading, listening to music and meeting new people. Treat yourself to a lavish meal, or an elaborate cocktail until late at night. Be sure to try out our famous Greek breakfast and our imaginative sandwiches.",
-      "snack-bar-quote": "Over the span of the satellite record, Arctic sea ice has been declining significantly, while sea ice in the Antarctica's increased very slightly"
+      "snack-bar-text": "Treat yourself to a lavish meal, or an elaborate cocktail until late at night. Be sure to try out our famous Greek breakfast and our imaginative sandwiches.",
+      "snack-bar-quote": "\"Breakfast very good, every day fresh, prepared just before eating (you can see it). Every day you can choose between 13 the same possibilities (e.g. eggs/ english breakfast/ toast/cornflakes).\""
     },
     "social-share": {
       "title": "Thank you for your support!",
@@ -118,35 +114,33 @@
       "the-room": "The Room"
     },
     "studios": {
-      "title": "Apartment",
+      "title": "Studios",
       "desc": {
-        "1": " This is the paragraph where you can write more details about your product. Keep you user engaged by providing meaningful information. Remember that by this time, the user is curious, otherwise he wouldn't scroll to get here. Add a button if you want the user to see more. We are here to make life better. ",
-        "2": " And now I look and look around and there’s so many Kanyes I've been trying to figure out the bed design for the master bedroom at our Hidden Hills compound... and thank you for turning my personal jean jacket into a couture piece. ",
-        "3": " The way to survive in modern society is to be an ascetic. It is to retreat from society. There’s too much society everywhere you go…The only solution is turn it off. "
+        "1": "Our studios are perfect for a couple, or a lonely traveler. They consist of one double bed or two singles, with sea view or the beautiful village of Planos."
       }
     },
     "writers-room": {
-      "title": "Apartment",
+      "title": "Writers Room",
       "desc": {
-        "1": " This is the paragraph where you can write more details about your product. Keep you user engaged by providing meaningful information. Remember that by this time, the user is curious, otherwise he wouldn't scroll to get here. Add a button if you want the user to see more. We are here to make life better. ",
-        "2": " And now I look and look around and there’s so many Kanyes I've been trying to figure out the bed design for the master bedroom at our Hidden Hills compound... and thank you for turning my personal jean jacket into a couture piece. ",
-        "3": " The way to survive in modern society is to be an ascetic. It is to retreat from society. There’s too much society everywhere you go…The only solution is turn it off. "
+        "1": "Legend has it that one Dutch writer lost his 'spark'. Weeks went by without touching a pen and he was becoming desperate.",
+        "2": "Whilst on vacation he used to sit on the balcony, overlooking the vast emptiness of the sea. Suddenly in a moment of Inspiration he grabbed his beloved pen and started writing without a stop.",
+        "3": "It was then that he knew there was something special about that room. Give yourself a chance to experience the writer's room and who know, you may find him wandering around."
       }
     },
     "apartments": {
-      "title": "Apartment",
+      "title": "Apartments",
       "desc": {
-        "1": " This is the paragraph where you can write more details about your product. Keep you user engaged by providing meaningful information. Remember that by this time, the user is curious, otherwise he wouldn't scroll to get here. Add a button if you want the user to see more. We are here to make life better. ",
-        "2": " And now I look and look around and there’s so many Kanyes I've been trying to figure out the bed design for the master bedroom at our Hidden Hills compound... and thank you for turning my personal jean jacket into a couture piece. ",
-        "3": " The way to survive in modern society is to be an ascetic. It is to retreat from society. There’s too much society everywhere you go…The only solution is turn it off. "
+        "1": "Razis apartments fall into three categories.",
+        "2": "Big family room, which can accommodate up to six people, maisonettes , which can accommodate up to six people , with two floors and an inner staircase and the clasic appartment, which can accommodate up to four people.",
+        "3": "All rooms have garden view or sea view, spacious and cozy, perfect for your family moments."
       }
     },
     "storehouse": {
-      "title": "Apartment",
+      "title": "Storehouse",
       "desc": {
-        "1": " This is the paragraph where you can write more details about your product. Keep you user engaged by providing meaningful information. Remember that by this time, the user is curious, otherwise he wouldn't scroll to get here. Add a button if you want the user to see more. We are here to make life better. ",
-        "2": " And now I look and look around and there’s so many Kanyes I've been trying to figure out the bed design for the master bedroom at our Hidden Hills compound... and thank you for turning my personal jean jacket into a couture piece. ",
-        "3": " The way to survive in modern society is to be an ascetic. It is to retreat from society. There’s too much society everywhere you go…The only solution is turn it off. "
+        "1": "The old storehouse is a beautiful old renovated building built in 1939.Its main use was an additional storage building for the large country house of the estate. The front ground floor was used for stabling the horses and donkeys while the separate back of the building was used to store the harvest of olives, currants, grain and cheese. The upper floor stored hay and other animal feed.",
+        "2": "The 1953 earthquake which razed Zakynthos destroyed the two storied farmhouse leaving the family unharmed and the store house intact and it was used until 1965.The time had come for the agricultural way of life to give way to the swiftly and steadily growing tourist industry. The store house was abandoned until the early 1980's when it was renovated and restored into a building suitable for habitation.",
+        "3": "The building is naturally insulated as the exterior walls are 70cm thick. The outside wood and white walls provide a welcoming atmosphere for a shady and beautiful veranda."
       }
     },
     "tc": {
