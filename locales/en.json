@@ -34,10 +34,16 @@
     "faq": {
       "title": "Frequently Asked Questions",
       "subtitle": "If you don't find what you need here, throw us an email!",
-      "q1": "How do i order?",
-      "a1": "We’re not always in the position that we want to be at. We’re constantly growing. We’re\n                                constantly making mistakes. We’re constantly trying to express ourselves and actualize\n                                our dreams. If you have the opportunity to play this game\n                                of life you need to appreciate every moment. A lot of people don’t appreciate the moment\n                                until it’s passed.",
-      "q2": "How can i make the payment?\n",
-      "a2": "We’re not always in the position that we want to be at. We’re constantly growing. We’re\n                                constantly making mistakes. We’re constantly trying to express ourselves and actualize\n                                our dreams. If you have the opportunity to play this game\n                                of life you need to appreciate every moment. A lot of people don’t appreciate the moment\n                                until it’s passed."
+      "q1": "Where can i park my car?",
+      "a1": "We have ample private parking space, so you don't need to worry about that.",
+      "q2": "Do you offer breakfast?",
+      "a2": "Yes, and we are really proud of it! Everything is made on the spot, with locally sourced, handpicked ingredients.",
+      "q3": "Do you have a transfer service?",
+      "a3": "We do not have our own in-house transfer service, but we are more than happy to arrange a taxi or a mini-bus for you!",
+      "q4": "What are the check-in and check-out times?",
+      "a4": "Check-in is from 14:00, and check-out is until 11:30. If you want to check-in/out a different time, let us know and we can work it out.",
+      "q5": "Can i have a bed of my preference?",
+      "a5": "Please let us know in advance, and we will try to satisfy your request."
     },
     "contact": {
       "title": "Got a question?",

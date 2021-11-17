@@ -34,10 +34,16 @@
     "faq": {
       "title": "Συχνές Ερωτήσεις",
       "subtitle": "Αν δεν βρείτε αυτό που χρειάζεστε εδώ, στείλτε μας ένα email!",
-      "q1": "How do i order?",
-      "a1": "We’re not always in the position that we want to be at. We’re constantly growing. We’re\n                                constantly making mistakes. We’re constantly trying to express ourselves and actualize\n                                our dreams. If you have the opportunity to play this game\n                                of life you need to appreciate every moment. A lot of people don’t appreciate the moment\n                                until it’s passed.",
-      "q2": "How can i make the payment?\n",
-      "a2": "We’re not always in the position that we want to be at. We’re constantly growing. We’re\n                                constantly making mistakes. We’re constantly trying to express ourselves and actualize\n                                our dreams. If you have the opportunity to play this game\n                                of life you need to appreciate every moment. A lot of people don’t appreciate the moment\n                                until it’s passed."
+      "q1": "Που μπορώ να παρκάρω το αυτοκίνητό μου?",
+      "a1": "Έχουμε άφθονο ιδιωτικό χώρο στάθμευσης, οπότε δεν χρειάζεται να ανησυχείτε για αυτό.",
+      "q2": "Προσφέρετε πρωινό;",
+      "a2": "Ναι, και είμαστε πραγματικά περήφανοι για αυτό! Όλα φτιάχνονται επί τόπου, με τοπικά, διαλεγμένα υλικά.",
+      "q3": "Έχετε υπηρεσία μεταφοράς;",
+      "a3": "Δεν διαθέτουμε τη δική μας εσωτερική υπηρεσία μεταφοράς, αλλά μπορουμε να κανονίσουμε ένα ταξί ή ένα μικρό λεωφορείο για εσάς!",
+      "q4": "What are the check-in and check-out times?",
+      "a4": "Το check-in πραγματοποιείται από τις 14:00 και το check-out μέχρι τις 11:30. Εάν θέλετε να κάνετε check-in/out διαφορετική ώρα, ενημερώστε μας.",
+      "q5": "Μπορώ να έχω κρεβάτι της προτίμησής μου;",
+      "a5": "Ενημερώστε μας εκ των προτέρων και θα προσπαθήσουμε να ικανοποιήσουμε το αίτημά σας."
     },
     "contact": {
       "title": "Έχετε κάποια ερώτηση;",
