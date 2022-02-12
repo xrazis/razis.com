@@ -50,6 +50,10 @@ router.get('/terms-&-conditions', (req, res) => {
     res.render('terms-&-conditions');
 });
 
+router.get('/espa', (req, res) => {
+    res.render('espa');
+});
+
 router.get('/404', (req, res) => {
     res.render('404');
 });
