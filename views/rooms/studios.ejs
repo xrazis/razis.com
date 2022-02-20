@@ -2,13 +2,69 @@
 <%- include('../partials/nav.ejs') %>
 
 <header>
-    <div class="page-header min-vh-50" style="background-image: url(/images/outdoors/storehouse-sideways-full.jpg)">
+    <div class="page-header page-header-top min-vh-50"
+         style="background-image: url(/images/outdoors/storehouse-sideways-full.jpg)">
         <span class="mask bg-dark opacity-8"></span>
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 mx-auto text-white text-center">
                     <h2 class="text-white"><%= t('room.experience') %></h2>
                 </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row bg-white shadow mt-n5 border-radius-lg pb-4 p-3 mx-sm-0 mx-1 position-relative">
+            <div class="col-lg-2 mt-lg-n2 mt-2">
+                <label class=""><%= t('room.rooms') %></label>
+                <select class="form-control" name="choices-rooms" id="choices-rooms" placeholder="Rooms">
+                    <option value="Choice 1" selected="">1</option>
+                    <option value="Choice 2">2</option>
+                    <option value="Choice 3">3</option>
+                    <option value="Choice 4">4</option>
+                    <option value="Choice 5">5</option>
+                </select>
+            </div>
+            <div class="col-lg-2 mt-lg-n2 mt-2">
+                <label class=""><%= t('room.adults') %></label>
+                <select class="form-control" name="choices-adults" id="choices-adults" placeholder="Adults">
+                    <option value="Choice 1" selected="">0</option>
+                    <option value="Choice 2">1</option>
+                    <option value="Choice 3">2</option>
+                    <option value="Choice 4">3</option>
+                    <option value="Choice 5">4</option>
+                    <option value="Choice 6">5</option>
+                    <option value="Choice 7">6</option>
+                </select>
+            </div>
+            <div class="col-lg-2 mt-lg-n2 mt-2">
+                <label class=""><%= t('room.children') %></label>
+                <select class="form-control" name="choices-children" id="choices-children" placeholder="Children">
+                    <option value="Choice 1" selected="">0</option>
+                    <option value="Choice 2">1</option>
+                    <option value="Choice 3">2</option>
+                    <option value="Choice 4">3</option>
+                    <option value="Choice 5">4</option>
+                    <option value="Choice 6">5</option>
+                </select>
+            </div>
+            <div class="col-lg-2 mt-lg-n2 mt-2">
+                <label class=""><%= t('room.infants') %></label>
+                <select class="form-control" name="choices-infants" id="choices-infants" placeholder="Infants">
+                    <option value="Choice 1" selected="">0</option>
+                    <option value="Choice 2">1</option>
+                </select>
+            </div>
+            <div class="col-lg-2 mt-lg-n2 mt-2">
+                <label class="">Check in/out</label>
+                <div class="input-group">
+                    <span class="input-group-text"><i class="fas fa-calendar"></i></span>
+                    <input class="form-control datepicker" placeholder="Please select date" type="text">
+                </div>
+            </div>
+            <div class="col-lg-2 mt-lg-n2 mt-2">
+                <label class="">&nbsp;</label>
+                <button type="button" class="btn bg-gradient-primary w-100 mb-0"><%= t('nav.book-now') %></button>
             </div>
         </div>
     </div>
@@ -60,7 +116,8 @@
         </div>
     </section>
 
-    <div class="page-header min-vh-50" style="background-image: url('/images/outdoors/storehouse-sideways-2-full.jpg')">
+    <div class="page-header page-header-bottom min-vh-50"
+         style="background-image: url('/images/outdoors/storehouse-sideways-2-full.jpg')">
         <span class="mask bg-dark opacity-6"></span>
         <div class="container">
             <div class="row">
