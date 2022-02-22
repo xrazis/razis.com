@@ -1,0 +1,54 @@
+<div class="row bg-white shadow mt-n5 border-radius-lg pb-4 p-3 mx-sm-0 mx-1 position-relative">
+    <div class="col-lg-2 mt-lg-n2 mt-2">
+        <label class=""><%= t('room.rooms') %></label>
+        <select class="form-control" name="choices-rooms" id="choices-rooms" placeholder="Rooms">
+            <option value="1" selected="">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+    </div>
+    <div class="col-lg-2 mt-lg-n2 mt-2">
+        <label class=""><%= t('room.adults') %></label>
+        <select class="form-control" name="choices-adults" id="choices-adults" placeholder="Adults">
+            <option value="0" selected="">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+        </select>
+    </div>
+    <div class="col-lg-2 mt-lg-n2 mt-2">
+        <label class=""><%= t('room.children') %></label>
+        <select class="form-control" name="choices-children" id="choices-children" placeholder="Children">
+            <option value="0" selected="">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+    </div>
+    <div class="col-lg-2 mt-lg-n2 mt-2">
+        <label class=""><%= t('room.infants') %></label>
+        <select class="form-control" name="choices-infants" id="choices-infants" placeholder="Infants">
+            <option value="0" selected="">0</option>
+            <option value="1">1</option>
+        </select>
+    </div>
+    <div class="col-lg-2 mt-lg-n2 mt-2">
+        <label class="">Check in/out</label>
+        <div class="input-group">
+            <span class="input-group-text"><i class="fas fa-calendar"></i></span>
+            <input id="myInput" class="form-control datepicker" placeholder="Please select date" type="text">
+        </div>
+    </div>
+    <div class="col-lg-2 mt-lg-n2 mt-2">
+        <label class="">&nbsp;</label>
+        <button id="bookNowForm" type="button" class="btn bg-gradient-primary w-100 mb-0 disabled">
+            <%= t('nav.book-now') %></button>
+    </div>
+</div>

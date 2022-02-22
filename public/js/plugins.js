@@ -39,10 +39,12 @@ if (document.querySelectorAll('[id^=choices]')) {
     });
 }
 
+let fp = null;
+
 if (document.querySelector('.datepicker')) {
     const year = new Date().getFullYear();
 
-    flatpickr('.datepicker', {
+    fp = flatpickr('.datepicker', {
         mode: 'range',
         enable: [
             {
@@ -53,6 +55,10 @@ if (document.querySelector('.datepicker')) {
                 from: `${year + 1}-05`,
                 to: `${year + 1}-10-15`
             }
-        ]
+        ],
+        onChange: function () {
+            const bookNowCTA = document.getElementById('bookNowForm');
+            bookNowCTA.classList.remove('disabled');
+        },
     });
 }
