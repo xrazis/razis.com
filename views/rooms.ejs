@@ -13,20 +13,22 @@
                         <h2><%= t('rooms.typed.3') %></h2>
                     </div>
                     <div class="buttons">
-                        <a href="#types" class="btn bg-gradient-warning mt-4"><%= t('buttons.discover') %></a>
+                        <a href="#types" class="btn bg-gradient-warning my-4 mb-lg-0"><%= t('buttons.discover') %></a>
                     </div>
                 </div>
-                <div class="col-lg-8 ps-5 pe-0">
+                <div class="col-lg-8 ps-0 ps-lg-5 pe-0">
                     <div class="row">
-                        <div class="col-lg-3 col-6">
+                        <div id="first-image-rooms" class="col-lg-3 col-6 mb-4 mb-lg-0">
                             <img class="w-100 border-radius-lg h-50 shadow mt-0 mt-lg-7"
                                  src="/images/zakynthos/shipwreck-1.jpg" alt=""
                                  style="object-fit: cover; object-position: left;">
                         </div>
-                        <div class="col-lg-3 col-6">
-                            <img class="w-100 border-radius-lg h-50 shadow" src="/images/zakynthos/blue-caves.jpg"
+                        <div id="second-image-rooms" class="col-lg-3 col-6">
+                            <img class="w-100 border-radius-lg h-50 shadow"
+                                 src="/images/zakynthos/blue-caves.jpg"
                                  alt="" style="object-fit: cover; object-position: center;">
-                            <img class="w-100 border-radius-lg h-50 shadow mt-4" src="/images/zakynthos/cameo.jpg"
+                            <img class="w-100 border-radius-lg h-50 shadow mt-4 d-none d-lg-block"
+                                 src="/images/zakynthos/cameo.jpg"
                                  alt="" style="object-fit: cover;">
                         </div>
                         <div class="col-lg-3 col-6">
@@ -38,7 +40,8 @@
                                  style="object-fit: cover; object-position: center;">
                         </div>
                         <div class="col-lg-3 col-6">
-                            <img class="w-100 border-radius-lg h-50 shadow mt-3" src="/images/zakynthos/mizithres.jpg"
+                            <img class="w-100 border-radius-lg h-50 shadow mt-0 mt-lg-3"
+                                 src="/images/zakynthos/mizithres.jpg"
                                  alt=""
                                  style="object-fit: cover; object-position: center;">
                             <img class="w-100 border-radius-lg h-50 shadow mt-4" src="/images/zakynthos/shipwreck-2.jpg"
@@ -52,10 +55,10 @@
     </div>
 </header>
 
-<section id="types" class="pt-2 pb-8">
+<section id="types" class="pt-4 pb-4 pb-lg-8">
     <div class="container">
         <div class="row">
-            <div class="col-md-6 ms-auto me-auto text-center mt-7 mb-5">
+            <div class="col-md-6 ms-auto me-auto text-center mb-5 mt-0 mt-lg-5">
                 <h2><%= t('room-types.title') %></h2>
             </div>
             <div class="col-lg-12">

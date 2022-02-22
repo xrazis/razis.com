@@ -18,7 +18,7 @@ if (fp) {
         const children = document.getElementById('choices-children').value;
         const infants = document.getElementById('choices-infants').value;
 
-        const bookingEngineURL = `https://razis.reserve-online.net/?checkin=${checkInDate}&rooms=${rooms}&nights=${diffDays}&adults=${adults}&children=${children}&infants=${infants}`
+        const bookingEngineURL = `https://razis.reserve-online.net/?checkin=${checkInDate}&rooms=${rooms}&nights=${diffDays}&adults=${adults}&children=${children}&infants=${infants}`;
         window.open(bookingEngineURL, 'Razis Apartments, Zakynthos Greece | Book Online');
     });
 }
