@@ -14,5 +14,6 @@
     <orderEntry type="library" name="parallax" level="application" />
     <orderEntry type="module" module-name="now-ui-design-system-pro-v2.1.0" />
     <orderEntry type="library" name="bootstrap" level="application" />
+    <orderEntry type="library" name="42d5adcbca" level="application" />
   </component>
 </module>
