@@ -20,17 +20,22 @@ module.exports = {
                 try {
                     const data = JSON.parse(rawData);
                     const reviews = data.result.reviews;
+                    xhr.status = data.status;
 
-                    for (let i = 0; i < 3; i++) {
-                        if (reviews[i].rating >= 4) {
+                    if (xhr.status !== 'OK') return
+
+                    for (const review of reviews) {
+                        if (review.rating >= 4) {
                             xhr.reviews.push({
-                                name: reviews[i].author_name,
-                                photo: reviews[i].profile_photo_url,
-                                rating: reviews[i].rating,
-                                text: reviews[i].text,
-                                relativeTime: reviews[i].relative_time_description,
+                                name: review.author_name,
+                                photo: review.profile_photo_url,
+                                rating: review.rating,
+                                text: review.text,
+                                relativeTime: review.relative_time_description,
                             });
                         }
+
+                        if (xhr.reviews.length >= 3) break
                     }
                 } catch (e) {
                     console.error(e.message);

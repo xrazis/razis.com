@@ -19,14 +19,14 @@ const {getReviews} = require('./actions/google_maps');
 
 const app = express();
 
-// getReviews();
+getReviews();
 
-// const job = new CronJob(
-//     '0 0 * * * 6',
-//     getReviews(),
-// );
-//
-// job.start();
+const job = new CronJob(
+    '0 0 * * * 6',
+    getReviews(),
+);
+
+job.start();
 
 i18next
     .use(i18nextMiddleware.LanguageDetector)
