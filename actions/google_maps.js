@@ -22,8 +22,6 @@ module.exports = {
                     const reviews = data.result.reviews;
                     xhr.status = data.status;
 
-                    if (xhr.status !== 'OK') return
-
                     for (const review of reviews) {
                         if (review.rating >= 4) {
                             xhr.reviews.push({
@@ -43,9 +41,11 @@ module.exports = {
 
                 const data = JSON.stringify(xhr);
 
-                fs.writeFile('./data/reviews.json', data, 'utf8', err => {
-                    if (err) console.log(`Error writing file: ${err}`);
-                });
+                if (xhr.status === 'OK') {
+                    fs.writeFile('./data/reviews.json', data, 'utf8', err => {
+                        if (err) console.log(`Error writing file: ${err}`);
+                    });
+                }
             });
         }).on('error', (e) => {
             console.error(e);
