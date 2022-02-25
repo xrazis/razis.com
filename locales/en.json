@@ -176,8 +176,10 @@
         "3": "The following terminology applies to these Terms and Conditions, Privacy Statement and  Disclaimer Notice and all Agreements: \"Client\", \"You\" and \"Your\" refers to you, the person log on this website and compliant to the Company’s terms and conditions. \"The Company\", \"Ourselves\", \"We\", \"Our\" and \"Us\", refers to our Company. \"Party\", \"Parties\", or \"Us\", refers to both the Client and ourselves. All terms refer to the offer, acceptance and consideration of payment necessary to undertake the process of our assistance to the Client in the most appropriate manner for the express purpose of meeting the Client’s needs in respect of provision of the Company’s stated services, in accordance with and subject to, prevailing law of Greece. Any use of the above terminology or other words in the singular, plural, capitalization and/or he/she or they, are taken as interchangeable and therefore as referring to same."
       },
       "cookies": {
-        "1": "We employ the use of cookies. By accessing Razis Apartments, you agree to use such cookies.",
-        "2": "Cookies are used by our website to enable the functionality of certain areas to make it easier for people visiting our website. Such an example is the language selection cookie. No third party cookies are being used."
+        "1": "We employ the use of cookies. By accessing Razis Apartments, you consent to our use of cookies in accordance with the terms of this policy.",
+        "2": "Cookies are used by our website to enable the functionality of certain areas to make it easier for people visiting our website. Such an example is the language selection cookie. ",
+        "3": "We use Google Analytics to analyse the use of our website. Our analytics service provider generates statistical and other information about website use by means of cookies. Our analytics service provider's privacy policy is available at: https://www.google.com/policies/privacy/.",
+        "4": "You can find out more about cookies at: https://www.cookiesandyou.com/"
       },
       "hyperlinking": {
         "1": "We will approve link requests from these organizations if we decide that: (a) the link would not make us look unfavorably to ourselves or to our accredited businesses; (b) the organization does not have any negative records with us; (c) the benefit to us from the visibility of the hyperlink compensates the absence of Razis Apartments; and (d) the link is in the context of general resource information.",
@@ -196,6 +198,14 @@
       "disclaimer": {
         "1": "As long as the website and the information and services on the website are provided free of charge, we will not be liable for any loss or damage of any nature."
       }
+    },
+    "cookie": {
+      "title": "Cookie policy",
+      "description": "We use cookies to ensure that we give you the best experience on our website. Read more",
+      "link-to-terms": "here.",
+      "accept": "Accept All",
+      "decline": "Basic",
+      "delete": "Delete All Cookies"
     }
   }
 }

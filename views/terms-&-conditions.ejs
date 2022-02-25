@@ -5,7 +5,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-3 mb-lg-0 mb-3">
-                <ul class="nav flex-column bg-white border-radius-lg p-3 position-sticky top-1">
+                <ul class="nav flex-column bg-white border-radius-lg p-3 position-sticky top-8">
                     <li class="nav-item">
                         <a class="nav-link text-dark d-flex align-items-center" data-scroll href="#general-terms">
                             <div class="icon me-2 mb-1">
@@ -68,6 +68,12 @@
                         <h3 class="mt-5 mb-3" id="cookies"><%= t('tc.sidenav.2') %></h3>
                         <p><%= t('tc.cookies.1') %></p>
                         <p><%= t('tc.cookies.2') %></p>
+                        <p><%= t('tc.cookies.3') %></p>
+                        <p><%= t('tc.cookies.4') %></p>
+                        <button id="cookiesOptOut" type="button" class="btn btn-sm btn-danger mb-0 me-2"
+                                data-bs-dismiss="alert"
+                                aria-label="Close"><%= t('cookie.delete') %>
+                        </button>
                         <h3 class="mt-5 mb-3" id="hyperlinking"><%= t('tc.sidenav.3') %></h3>
                         <p><%= t('tc.hyperlinking.1') %></p>
                         <p><%= t('tc.hyperlinking.2') %></p>
