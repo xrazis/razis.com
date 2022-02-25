@@ -1,10 +1,20 @@
 <div id="cookies-alert-parent" class="container position-fixed">
     <div class="row">
-        <div id="cookies-alert" class="alert alert-light alert-dismissible text-white fade" role="alert">
-            <strong>Holy molly!</strong> You should check in on some of those fields below.
-            <button type="button" class="btn-close text-lg py-3 opacity-10" data-bs-dismiss="alert" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-            </button>
+        <div id="cookies-alert" class="alert alert-dark alert-dismissible text-white fade show d-flex
+         justify-content-between align-items-center flex-column flex-md-row px-3 d-none" role="alert">
+            <div class="mb-3 mb-md-0"><%= t('cookie.description') %>
+                <a class="text-white text-decoration-underline" href="/terms-&-conditions"><%= t('cookie' +
+                            '.link-to-terms') %></a>
+            </div>
+            <div class="d-flex">
+                <button id="cookiesBasic" type="button" class="btn btn-sm btn-secondary mb-0 me-2"
+                        data-bs-dismiss="alert"
+                        aria-label="Close"><%= t('cookie.decline') %>
+                </button>
+                <button id="cookiesAccept" type="button" class="btn btn-sm btn-success mb-0" data-bs-dismiss="alert"
+                        aria-label="Close"><%= t('cookie.accept') %>
+                </button>
+            </div>
         </div>
     </div>
 </div>
