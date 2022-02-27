@@ -22,7 +22,7 @@ const app = express();
 getReviews();
 
 const job = new CronJob(
-    '0 0 * * * 6',
+    '00 00 00 * * *',
     getReviews(),
 );
 
