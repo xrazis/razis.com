@@ -12,7 +12,7 @@ router.get('/', (req, res) => {
         const testimonials = JSON.parse(data);
 
         res.render('index', {'testimonials': testimonials});
-    } catch (err) {
+    } catch {
         res.render('index', {'testimonials': false});
     }
 });
