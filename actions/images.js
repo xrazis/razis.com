@@ -1,10 +1,16 @@
 const fs = require('fs');
 
 module.exports = {
-    determineRoute: (route, res) => {
+    determineRooms: (route, rooms, res) => {
+        let images = [];
+
         try {
-            const images = fs.readdirSync(`./public/images/indoors/${route}`);
-            return res.render(`rooms/${route}`, {route: route, images: images});
+            if (rooms.length === 1) {
+                images = fs.readdirSync(`./public/images/indoors/${rooms[0]}`);
+            } else {
+                rooms.forEach(room => images.push(fs.readdirSync(`./public/images/indoors/${room}`)));
+            }
+            return res.render(`rooms/${route}`, {rooms: rooms, images: images});
         } catch {
             return res.render(`rooms/${route}`, {route: route, images: false});
         }

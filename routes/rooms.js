@@ -1,26 +1,26 @@
 const express = require('express');
 const router = express.Router();
 
-const {determineRoute} = require('../actions/images');
+const {determineRooms} = require('../actions/images');
 
 router.get('/rooms', (req, res) => {
     res.render('rooms');
 });
 
 router.get('/rooms/storehouse', (req, res) => {
-    determineRoute('storehouse', res);
+    determineRooms('storehouse', ['storehouse'], res);
 });
 
 router.get('/rooms/writers-room', (req, res) => {
-    determineRoute('writers-room', res);
+    determineRooms('writers-room', ['writers-room'], res);
 });
 
 router.get('/rooms/apartments', (req, res) => {
-    determineRoute('apartments', res);
+    determineRooms('apartments', ['apartments', 'one-bedroom', 'two-bedroom', 'maisonette'], res);
 });
 
 router.get('/rooms/studios', (req, res) => {
-    determineRoute('studios', res);
+    determineRooms('studios', ['pool-studios', 'budget-studios'], res);
 });
 
 module.exports = router;

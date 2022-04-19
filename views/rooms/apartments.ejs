@@ -19,7 +19,16 @@
         </div>
     </div>
 
-    <%- include('../partials/room-photo-carousel.ejs') %>
+    <div class="row">
+        <% rooms.forEach((room, index) => { %>
+            <h5 class="opacity-7 text-uppercase font-weight-bolder mt-5 text-center">
+                <%= room.replace('-', ' ') %>
+            </h5>
+
+            <%- include('../partials/room-photo-carousel.ejs', {images: images[index], route: rooms[index]}) %>
+        <% }); %>
+    </div>
+
 </section>
 
 <%- include('../partials/room-footer.ejs') %>

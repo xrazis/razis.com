@@ -1,16 +1,16 @@
 <% if (images) { %>
-    <section class="py-5">
+    <section class="py-1">
         <div class="container">
             <div class="mx-auto">
-                <div id="roomPhotosCarousel" class="carousel slide mb-3" data-bs-ride="carousel">
+                <div id="roomPhotosCarousel<%= route %>" class="carousel mb-3" data-bs-ride="false">
                     <div class="carousel-indicators">
                         <% images.forEach((image, index) => { %>
                             <% if (index === 0) { %>
-                                <button type="button" data-bs-target="#roomPhotosCarousel"
+                                <button type="button" data-bs-target="#roomPhotosCarousel<%= route %>"
                                         data-bs-slide-to="<%= index %>"
                                         class="active" aria-current="true" aria-label="Slide <%= index %>"></button>
                             <% } else { %>
-                                <button type="button" data-bs-target="#roomPhotosCarousel"
+                                <button type="button" data-bs-target="#roomPhotosCarousel<%= route %>"
                                         data-bs-slide-to="<%= index %>" aria-label="Slide <%= index %>"></button>
                             <% } %>
                         <% }); %>
@@ -32,12 +32,12 @@
                             <% } %>
                         <% }); %>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#roomPhotosCarousel"
+                    <button class="carousel-control-prev" type="button" data-bs-target="#roomPhotosCarousel<%= route %>"
                             data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#roomPhotosCarousel"
+                    <button class="carousel-control-next" type="button" data-bs-target="#roomPhotosCarousel<%= route %>"
                             data-bs-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
