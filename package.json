@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www",
-    "dev": "nodemon --ignore data/ ./bin/www "
+    "start": "NODE_ENV=production node ./bin/www",
+    "dev": "NODE_ENV=development nodemon --ignore data/ ./bin/www"
   },
   "nodemonConfig": {
     "ignore": [
@@ -30,6 +30,7 @@
     "nodemailer": "^6.7.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.14"
+    "nodemon": "^2.0.14",
+    "purgecss": "^4.1.3"
   }
 }

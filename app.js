@@ -16,14 +16,17 @@ const keys = require('./config/keys');
 const enTranslations = require('./locales/en.json');
 const elTranslations = require('./locales/el.json');
 const {getReviews} = require('./actions/google_maps');
+const {purgeCSS} = require('./actions/purge_css');
 
 const app = express();
+
+if (process.env.NODE_ENV === 'development') purgeCSS();
 
 getReviews();
 
 const job = new CronJob(
     '00 00 00 * * *',
-    getReviews(),
+    getReviews,
 );
 
 job.start();

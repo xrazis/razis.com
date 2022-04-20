@@ -14,11 +14,6 @@ if (document.getElementsByClassName('page-header')) {
             let bottomStandardPosition = '50%';
             let bgParallaxOffset = bgParallax.offsetTop;
 
-            if (bgParallax.classList.contains('page-header-bottom')) {
-                bottomStandardPosition = '42%';
-                bgParallaxOffset *= 0.5;
-            }
-
             if (scrollPosition > bgParallaxOffset && scrollPosition <= limit) {
                 bgParallax.style.backgroundPositionY = (50 - 10 * scrollPosition / limit * 3) + '%';
             } else {
