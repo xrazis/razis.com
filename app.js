@@ -2,6 +2,7 @@ const i18nextMiddleware = require('i18next-http-middleware')
 const filesystemBackend = require('i18next-node-fs-backend');
 const RateLimit = require('express-rate-limit');
 const cookieParser = require('cookie-parser');
+const compression = require('compression');
 const createError = require('http-errors');
 const CronJob = require('cron').CronJob;
 const express = require('express');
@@ -52,6 +53,7 @@ i18next
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
+app.use(compression())
 app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({extended: false}));
