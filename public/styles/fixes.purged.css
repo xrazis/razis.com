@@ -1,0 +1,49 @@
+#espa-image {
+    transform: scale(60%);
+}
+
+#zakynthos-icons {
+    min-height: fit-content;
+    padding: 7rem 0;
+    align-items: start;
+}
+
+#navigation .dropdown {
+    max-height: 40px;
+}
+
+#navigation .dropdown-menu {
+    position: absolute !important;
+}
+
+#cookies-alert-parent {
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+}
+
+.navbar-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23344767' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+.dropdown .dropdown-menu::before {
+    content: none;
+}
+
+@media (max-width: 991.98px) {
+    #first-image-rooms,
+    #second-image-rooms {
+        height: 100%;
+    }
+
+    .navbar-toggler + .navbar-collapse .dropdown:not(.nav-item) .dropdown-menu::before {
+        content: none;
+    }
+}
+
+@media (max-width: 767.68px) {
+    .border-radius-bottom-start-0-mb {
+        border-radius: 0;
+    }
+}
