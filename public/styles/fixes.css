@@ -1,5 +1,6 @@
-#espa-image {
-    transform: scale(60%);
+.espa-image {
+    height: 80px;
+    transform: scale(65%);
 }
 
 #zakynthos-icons {
