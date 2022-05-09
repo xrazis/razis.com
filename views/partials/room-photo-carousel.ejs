@@ -2,7 +2,7 @@
     <section class="py-1">
         <div class="container">
             <div class="mx-auto">
-                <div id="roomPhotosCarousel<%= route %>" class="carousel mb-3" data-bs-ride="false">
+                <div id="roomPhotosCarousel<%= route %>" class="carousel carousel-dark mb-3" data-bs-ride="false">
                     <div class="carousel-indicators">
                         <% images.forEach((image, index) => { %>
                             <% if (index === 0) { %>
@@ -18,13 +18,13 @@
                     <div class="carousel-inner border-radius-sm">
                         <% images.forEach((image, index) => { %>
                             <% if (index === 0) { %>
-                                <div class="carousel-item active">
+                                <div class="carousel-item active" style="height: 90vh">
                                     <img class="d-block w-100"
                                          src="/images/indoors/<%= route %>/<%= image %>"
                                          alt="<%= image.replace(/\.webp/, '') %>"/>
                                 </div>
                             <% } else { %>
-                                <div class="carousel-item">
+                                <div class="carousel-item" style="height: 90vh">
                                     <img class="d-block w-100"
                                          src="/images/indoors/<%= route %>/<%= image %>"
                                          alt="<%= image.replace(/\.webp/, '') %>"/>

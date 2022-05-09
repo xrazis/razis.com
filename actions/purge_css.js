@@ -22,7 +22,8 @@ module.exports = {
                 standard: [/choices/, /flatpickr/],
                 deep: [/choices/, /flatpickr/],
                 greedy: [/choices/, /flatpickr/]
-            }
+            },
+            skippedContentGlobs: ['public/libs/**']
         });
 
         purgeCSSResult.forEach(item => {
