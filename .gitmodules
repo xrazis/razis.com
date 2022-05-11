@@ -1,3 +1,6 @@
 [submodule "public/assets"]
 	path = public/assets
 	url = git@github.com:xrazis/razis.com-assets.git
+[submodule "public/libs/PhotoSwipe"]
+	path = public/libs/PhotoSwipe
+	url = git@github.com:dimsemenov/PhotoSwipe.git
