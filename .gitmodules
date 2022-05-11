@@ -3,4 +3,4 @@
 	url = git@github.com:xrazis/razis.com-assets.git
 [submodule "public/libs/lightGallery"]
 	path = public/libs/lightGallery
-	url = https://github.com/xrazis/lightGallery
+	url = git@github.com:xrazis/lightGallery.git
