@@ -1,12 +1,12 @@
 import PhotoSwipeLightbox from '../libs/PhotoSwipe/dist/photoswipe-lightbox.esm.js';
+import PhotoSwipe from '../libs/PhotoSwipe/dist/photoswipe.esm.js';
 
 if (document.getElementsByClassName('lightbox')) {
-    let lightbox
 
-    lightbox = new PhotoSwipeLightbox({
+    let lightbox = new PhotoSwipeLightbox({
         gallery: '.lightbox',
         children: '.lb',
-        pswpModule: () => import('../libs/PhotoSwipe/dist/photoswipe.esm.js')
+        pswpModule: PhotoSwipe,
     });
 
     lightbox.init();

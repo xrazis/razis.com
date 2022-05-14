@@ -25,7 +25,7 @@
                 <%= room.replace('-', ' ') %>
             </h5>
 
-            <%- include('../partials/room-photo-carousel.ejs', {images: images[index], route: rooms[index]}) %>
+            <%- include('../partials/room-lightbox.ejs', {index: index, images: images[index], route: rooms[index]}) %>
         <% }); %>
     </div>
 

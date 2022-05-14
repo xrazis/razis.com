@@ -1,11 +1,21 @@
 const fs = require('fs');
+const sizeOf = require('image-size');
 
 module.exports = {
     determineRooms: (route, rooms, res) => {
         let images = [];
 
         try {
-            rooms.forEach(room => images.push(fs.readdirSync(`./public/images/indoors/${room}`)));
+            rooms.forEach(room => {
+                let roomImages = [];
+
+                fs.readdirSync(`./public/images/indoors/${room}`).forEach(image => {
+                    const dimensions = sizeOf(`./public/images/indoors/${room}/${image}`);
+                    roomImages.push({name: image, width: dimensions.width, height: dimensions.height});
+                });
+
+                images.push(roomImages);
+            });
 
             return res.render(`rooms/${route}`, {rooms: rooms, images: images});
         } catch {

@@ -3,6 +3,6 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/public/assets" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/public/libs/lightGallery" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/public/libs/PhotoSwipe" vcs="Git" />
   </component>
 </project>
