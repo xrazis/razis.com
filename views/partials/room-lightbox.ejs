@@ -1,13 +1,18 @@
 <% if (images) { %>
     <section class="py-1">
         <div id="lightbox-room-<%= index %>" class="container lightbox">
-            <% images.forEach(image => { %>
-                <a href="/images/indoors/<%= route %>/<%= image.name %>" target="_blank" class="lb"
-                data-pswp-width="<%= image.width %>" data-pswp-height="<%= image.height %>">
-                <img src="/images/indoors/<%= route %>/<%= image.name %>"
-                     alt="<%= image.name.replace(/\.webp/, '') %>"/>
-                </a>
-            <% }); %>
+            <div class="row min-vh-25">
+                <% images.forEach(image => { %>
+                    <div class="col-sm-4 col-12 mb-3 mt-3">
+                        <a href="/images/indoors/<%= route %>/<%= image.name %>" target="_blank" class="lb"
+                           data-pswp-width="<%= image.width %>" data-pswp-height="<%= image.height %>">
+                            <img src="/images/indoors/<%= route %>/<%= image.name %>"
+                                 alt="<%= image.name.replace(/\.webp/, '') %>"
+                                 class="w-100 h-100 border-radius-lg bg-cover">
+                        </a>
+                    </div>
+                <% }); %>
+            </div>
         </div>
     </section>
 <% } %>
