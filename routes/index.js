@@ -1,10 +1,13 @@
 const express = require('express');
 const router = express.Router();
+const {SitemapStream, streamToPromise} = require('sitemap')
+const {createGzip} = require('zlib');
 const fs = require('fs');
 
 const {email_user} = require('../config/keys');
 const transporter = require('../connections/mailer_conn');
 const {emailSchema} = require('../schemas/joi');
+let sitemap;
 
 router.get('/', (req, res) => {
     try {
@@ -52,6 +55,39 @@ router.get('/terms-&-conditions', (req, res) => {
 
 router.get('/espa', (req, res) => {
     res.render('espa');
+});
+
+router.get('/sitemap.xml', (req, res) => {
+    res.header('Content-Type', 'application/xml');
+    res.header('Content-Encoding', 'gzip');
+    if (sitemap) {
+        res.send(sitemap)
+        return
+    }
+
+    try {
+        const smStream = new SitemapStream({hostname: 'https://razis.com/'})
+        const pipeline = smStream.pipe(createGzip());
+
+        smStream.write({url: '/'});
+        smStream.write({url: '/rooms'});
+        smStream.write({url: '/terms-&-conditions'});
+        smStream.write({url: '/contact-us'});
+        smStream.write({url: '/espa'});
+        smStream.write({url: '/rooms/studios'});
+        smStream.write({url: '/rooms/apartments'});
+        smStream.write({url: '/rooms/writers-room'});
+        smStream.write({url: '/rooms/storehouse'});
+
+        streamToPromise(pipeline).then(sm => sitemap = sm);
+        smStream.end();
+        pipeline.pipe(res).on('error', e => {
+            throw e
+        });
+    } catch (e) {
+        console.error(e);
+        res.status(500).end();
+    }
 });
 
 router.get('/404', (req, res) => {
