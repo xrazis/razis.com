@@ -35,7 +35,8 @@
                             <img class="w-100 border-radius-lg h-50 shadow mt-0 mt-lg-5"
                                  src="/images/zakynthos/dafni.webp" alt="dafni"
                                  style="object-fit: cover; object-position: left;">
-                            <img class="w-100 border-radius-lg h-50 shadow mt-4" src="/images/zakynthos/marathonisi.webp"
+                            <img class="w-100 border-radius-lg h-50 shadow mt-4"
+                                 src="/images/zakynthos/marathonisi.webp"
                                  alt="marathonisi"
                                  style="object-fit: cover; object-position: center;">
                         </div>
@@ -44,7 +45,8 @@
                                  src="/images/zakynthos/mizithres.webp"
                                  alt="mizithres"
                                  style="object-fit: cover; object-position: center;">
-                            <img class="w-100 border-radius-lg h-50 shadow mt-4" src="/images/zakynthos/shipwreck-2.webp"
+                            <img class="w-100 border-radius-lg h-50 shadow mt-4"
+                                 src="/images/zakynthos/shipwreck-2.webp"
                                  alt="shipwreck-2"
                                  style="object-fit: cover; object-position: left;">
                         </div>
@@ -177,47 +179,89 @@
                 <h3><%= t('facilities.title') %></h3>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-6 position-relative">
-                <img class="image-left border-radius-lg img-fluid shadow position-relative top-0 end-0 ms-md-5 bg-cover"
-                     src="/images/outdoors/drone-02.png" alt="drone-02">
-                <p class="blockquote border border-primary rounded w-50 p-3 text-sm text-primary float-md-end mx-auto mt-4 me-md-n2">
-                    <%= t('facilities.pool-quote') %>
-                </p>
-            </div>
-            <div class="col-md-5">
-                <img class="image-right border-radius-lg img-fluid shadow ms-md-n4 mb-4 mt-md-8 position-relative bg-cover"
-                     src="/images/outdoors/drone-04.png" alt="drone-04">
-                <div class="px-4">
-                    <h3 class="mb-4"><%= t('facilities.pool') %></h3>
-                    <p>
-                        <%= t('facilities.pool-text') %>
-                    </p>
-                </div>
-            </div>
-        </div>
-        <!--        <div class="row mt-5">-->
-        <!--            <div class="col-md-6 position-relative">-->
-        <!--                <img class="image-left border-radius-lg img-fluid shadow position-relative top-0 end-0 ms-md-5 bg-cover"-->
-        <!--                     src="/images/outdoors/pool-from-bar.webp">-->
-        <!--                <p class="blockquote border border-info rounded w-50 p-3 text-sm text-info float-md-end mt-4 me-md-n2 mx-auto">-->
-        <!--                    <%= t('facilities.snack-bar-quote') %>-->
-        <!--                </p>-->
-        <!--            </div>-->
-        <!--            <div class="col-md-5">-->
-        <!--                <img class="image-right border-radius-lg img-fluid shadow ms-md-n4 mb-4 mt-md-8 position-relative bg-cover"-->
-        <!--                     src="/images/outdoors/pool-cocktail.webp">-->
-        <!--                <div class="px-4">-->
-        <!--                    <h3 class="mb-4"><%= t('facilities.snack-bar') %></h3>-->
-        <!--                    <p>-->
-        <!--                        <%= t('facilities.snack-bar-text') %>-->
-        <!--                    </p>-->
-        <!--                </div>-->
-        <!--            </div>-->
-        <!--        </div>-->
+        <%- include('partials/facilities.ejs') %>
     </div>
 </section>
 
-<%- include('partials/facilities.ejs') %>
+<!--<section class="pt-5 pb-0">-->
+<!--    <div class="container">-->
+<!--        <div class="row">-->
+<!--            <div class="col-lg-4 col-md-6 mb-4">-->
+<!--                <div class="card card-blog card-plain">-->
+<!--                    <div class="position-relative">-->
+<!--                        <a class="d-block">-->
+<!--                            <img src="../../assets/img/house.jpg" alt="img-blur-shadow"-->
+<!--                                 class="img-fluid shadow border-radius-lg">-->
+<!--                        </a>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="col-lg-4 col-md-6">-->
+<!--                <div class="card card-blog card-plain">-->
+<!--                    <div class="position-relative">-->
+<!--                        <a class="d-block">-->
+<!--                            <img src="../../assets/img/pool.jpg" alt="img-blur-shadow"-->
+<!--                                 class="img-fluid shadow border-radius-lg">-->
+<!--                        </a>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="col-lg-4 col-md-6">-->
+<!--                <div class="card card-blog card-plain">-->
+<!--                    <div class="position-relative">-->
+<!--                        <a class="d-block">-->
+<!--                            <img src="../../assets/img/antalya.jpg" alt="img-blur-shadow"-->
+<!--                                 class="img-fluid shadow border-radius-lg">-->
+<!--                        </a>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="col-lg-4 col-md-6">-->
+<!--                <div class="card card-blog card-plain">-->
+<!--                    <div class="position-relative">-->
+<!--                        <a class="d-block">-->
+<!--                            <img src="../../assets/img/tiny-house.jpg" alt="img-blur-shadow"-->
+<!--                                 class="img-fluid shadow border-radius-lg">-->
+<!--                        </a>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="col-lg-4 col-md-6">-->
+<!--                <div class="card card-blog card-plain">-->
+<!--                    <div class="position-relative">-->
+<!--                        <a class="d-block">-->
+<!--                            <img src="../../assets/img/air-bnb.jpg" alt="img-blur-shadow"-->
+<!--                                 class="img-fluid shadow border-radius-lg">-->
+<!--                        </a>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="col-lg-4 col-md-6">-->
+<!--                <div class="card card-blog card-plain">-->
+<!--                    <div class="position-relative">-->
+<!--                        <a class="d-block">-->
+<!--                            <img src="../../assets/img/palm-house.jpg" alt="img-blur-shadow"-->
+<!--                                 class="img-fluid shadow border-radius-lg">-->
+<!--                        </a>-->
+<!--                    </div>-->
+<!--                    <div class="card-body px-1 pt-3">-->
+<!--                        <p class="text-gradient text-dark mb-2 text-sm">Whitsunday Islands, Australia</p>-->
+<!--                        <a href="javascript:;">-->
+<!--                            <h5>-->
+<!--                                Bronze Ganesha statue-->
+<!--                            </h5>-->
+<!--                        </a>-->
+<!--                        <p>-->
+<!--                            Different people have different taste, and various types of music have many ways of leaving-->
+<!--                            an impact on someone.-->
+<!--                        </p>-->
+<!--                        <button type="button" class="btn btn-outline-primary btn-sm">Book Now</button>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</section>-->
+
 <%- include('partials/social-footer.ejs') %>
 <%- include('partials/footer.ejs') %>
