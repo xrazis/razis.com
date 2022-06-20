@@ -2,8 +2,8 @@
 <%- include('partials/nav.ejs') %>
 
 <header>
-    <div id="zakynthos-icons" class="page-header">
-        <div class="container">
+    <div id="zakynthos-icons" class="page-header min-vh-85">
+        <div class="container lightbox my-auto">
             <div class="row">
                 <div class="col-lg-4 my-auto">
                     <h2 class="mb-0"><%= t('rooms.title') %> <span id="typed"></span></h2>
@@ -12,43 +12,62 @@
                         <h2><%= t('rooms.typed.2') %></h2>
                         <h2><%= t('rooms.typed.3') %></h2>
                     </div>
-                    <!--                    <div class="buttons">-->
-                    <!--                        <a href="#types" class="btn text-bolder bg-gradient-info my-4 mb-lg-0"><%= t('buttons.discover') %></a>-->
-                    <!--                    </div>-->
+                    <div class="buttons">
+                        <a href="#types"
+                           class="btn text-bolder bg-gradient-info my-4 mb-lg-0"><%= t('buttons.discover') %></a>
+                    </div>
                 </div>
                 <div class="col-lg-8 ps-0 ps-lg-5 pe-0">
                     <div class="row">
                         <div id="first-image-rooms" class="col-lg-3 col-6 mb-4 mb-lg-0">
-                            <img class="w-100 border-radius-lg h-50 shadow mt-0 mt-lg-7"
-                                 src="/images/zakynthos/shipwreck-1.webp" alt="shipwreck-1"
-                                 style="object-fit: cover; object-position: left;">
+                            <a class="lb" href="/images/outdoors/outdoors-17.webp"
+                               data-pswp-width="1440" data-pswp-height="1080"> <img
+                                        class="w-100 border-radius-lg h-50 shadow mt-0 mt-lg-7"
+                                        src="/images/outdoors/outdoors-17.webp" alt="outdoors-17"
+                                        style="object-fit: cover; object-position: left;">
+                            </a>
                         </div>
                         <div id="second-image-rooms" class="col-lg-3 col-6">
-                            <img class="w-100 border-radius-lg h-50 shadow"
-                                 src="/images/zakynthos/blue-caves.webp"
-                                 alt="blue-caves" style="object-fit: cover; object-position: center;">
-                            <img class="w-100 border-radius-lg h-50 shadow mt-4 d-none d-lg-block"
-                                 src="/images/zakynthos/cameo.webp"
-                                 alt="cameo" style="object-fit: cover;">
+                            <a class="lb" href="/images/outdoors/outdoors-13.webp"
+                               data-pswp-width="1440" data-pswp-height="1080">
+                                <img class="w-100 border-radius-lg h-50 shadow"
+                                     src="/images/outdoors/outdoors-13.webp" alt="outdoors-13"
+                                     style="object-fit: cover; object-position: center;">
+                            </a>
+                            <a class="lb" href="/images/outdoors/outdoors-14.webp"
+                               data-pswp-width="1519" data-pswp-height="1080">
+                                <img class="w-100 border-radius-lg h-50 shadow mt-4 d-none d-lg-block"
+                                     src="/images/outdoors/outdoors-14.webp" alt="outdoors-14"
+                                     style="object-fit: cover;">
+                            </a>
                         </div>
                         <div class="col-lg-3 col-6">
-                            <img class="w-100 border-radius-lg h-50 shadow mt-0 mt-lg-5"
-                                 src="/images/zakynthos/dafni.webp" alt="dafni"
-                                 style="object-fit: cover; object-position: left;">
-                            <img class="w-100 border-radius-lg h-50 shadow mt-4"
-                                 src="/images/zakynthos/marathonisi.webp"
-                                 alt="marathonisi"
-                                 style="object-fit: cover; object-position: center;">
+                            <a class="lb" href="/images/outdoors/outdoors-16.webp"
+                               data-pswp-width="1440" data-pswp-height="1080">
+                                <img class="w-100 border-radius-lg h-50 shadow mt-0 mt-lg-5"
+                                     src="/images/outdoors/outdoors-16.webp" alt="outdoors-16"
+                                     style="object-fit: cover; object-position: left;">
+                            </a>
+                            <a class="lb" href="/images/outdoors/outdoors-3.webp"
+                               data-pswp-width="1440" data-pswp-height="1080">
+                                <img class="w-100 border-radius-lg h-50 shadow mt-4"
+                                     src="/images/outdoors/outdoors-3.webp" alt="outdoors-3"
+                                     style="object-fit: cover; object-position: center;">
+                            </a>
                         </div>
                         <div class="col-lg-3 col-6">
-                            <img class="w-100 border-radius-lg h-50 shadow mt-0 mt-lg-3"
-                                 src="/images/zakynthos/mizithres.webp"
-                                 alt="mizithres"
-                                 style="object-fit: cover; object-position: center;">
-                            <img class="w-100 border-radius-lg h-50 shadow mt-4"
-                                 src="/images/zakynthos/shipwreck-2.webp"
-                                 alt="shipwreck-2"
-                                 style="object-fit: cover; object-position: left;">
+                            <a class="lb" href="/images/outdoors/outdoors-20.webp"
+                               data-pswp-width="1440" data-pswp-height="1080">
+                                <img class="w-100 border-radius-lg h-50 shadow mt-0 mt-lg-3"
+                                     src="/images/outdoors/outdoors-20.webp" alt="outdoors-20"
+                                     style="object-fit: cover; object-position: center;">
+                            </a>
+                            <a class="lb" href="/images/outdoors/outdoors-4.webp"
+                               data-pswp-width="1440" data-pswp-height="1080">
+                                <img class="w-100 border-radius-lg h-50 shadow mt-4"
+                                     src="/images/outdoors/outdoors-4.webp" alt="outdoors-4"
+                                     style="object-fit: cover; object-position: left;">
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -175,93 +194,12 @@
     <div class="container">
         <div class="row mb-5">
             <div class="col-lg-8 text-center mx-auto">
-                <p class="mb-1 text-success"><%= t('facilities.small-title') %></p>
                 <h3><%= t('facilities.title') %></h3>
             </div>
         </div>
         <%- include('partials/facilities.ejs') %>
     </div>
 </section>
-
-<!--<section class="pt-5 pb-0">-->
-<!--    <div class="container">-->
-<!--        <div class="row">-->
-<!--            <div class="col-lg-4 col-md-6 mb-4">-->
-<!--                <div class="card card-blog card-plain">-->
-<!--                    <div class="position-relative">-->
-<!--                        <a class="d-block">-->
-<!--                            <img src="../../assets/img/house.jpg" alt="img-blur-shadow"-->
-<!--                                 class="img-fluid shadow border-radius-lg">-->
-<!--                        </a>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            <div class="col-lg-4 col-md-6">-->
-<!--                <div class="card card-blog card-plain">-->
-<!--                    <div class="position-relative">-->
-<!--                        <a class="d-block">-->
-<!--                            <img src="../../assets/img/pool.jpg" alt="img-blur-shadow"-->
-<!--                                 class="img-fluid shadow border-radius-lg">-->
-<!--                        </a>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            <div class="col-lg-4 col-md-6">-->
-<!--                <div class="card card-blog card-plain">-->
-<!--                    <div class="position-relative">-->
-<!--                        <a class="d-block">-->
-<!--                            <img src="../../assets/img/antalya.jpg" alt="img-blur-shadow"-->
-<!--                                 class="img-fluid shadow border-radius-lg">-->
-<!--                        </a>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            <div class="col-lg-4 col-md-6">-->
-<!--                <div class="card card-blog card-plain">-->
-<!--                    <div class="position-relative">-->
-<!--                        <a class="d-block">-->
-<!--                            <img src="../../assets/img/tiny-house.jpg" alt="img-blur-shadow"-->
-<!--                                 class="img-fluid shadow border-radius-lg">-->
-<!--                        </a>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            <div class="col-lg-4 col-md-6">-->
-<!--                <div class="card card-blog card-plain">-->
-<!--                    <div class="position-relative">-->
-<!--                        <a class="d-block">-->
-<!--                            <img src="../../assets/img/air-bnb.jpg" alt="img-blur-shadow"-->
-<!--                                 class="img-fluid shadow border-radius-lg">-->
-<!--                        </a>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            <div class="col-lg-4 col-md-6">-->
-<!--                <div class="card card-blog card-plain">-->
-<!--                    <div class="position-relative">-->
-<!--                        <a class="d-block">-->
-<!--                            <img src="../../assets/img/palm-house.jpg" alt="img-blur-shadow"-->
-<!--                                 class="img-fluid shadow border-radius-lg">-->
-<!--                        </a>-->
-<!--                    </div>-->
-<!--                    <div class="card-body px-1 pt-3">-->
-<!--                        <p class="text-gradient text-dark mb-2 text-sm">Whitsunday Islands, Australia</p>-->
-<!--                        <a href="javascript:;">-->
-<!--                            <h5>-->
-<!--                                Bronze Ganesha statue-->
-<!--                            </h5>-->
-<!--                        </a>-->
-<!--                        <p>-->
-<!--                            Different people have different taste, and various types of music have many ways of leaving-->
-<!--                            an impact on someone.-->
-<!--                        </p>-->
-<!--                        <button type="button" class="btn btn-outline-primary btn-sm">Book Now</button>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</section>-->
 
 <%- include('partials/social-footer.ejs') %>
 <%- include('partials/footer.ejs') %>
