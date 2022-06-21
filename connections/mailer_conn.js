@@ -14,7 +14,7 @@ const transporter = nodemailer.createTransport(transport);
 
 transporter.verify(error => {
     if (error) {
-        console.log(error);
+        console.log(`Nodemailer could not connect due to ${error.code} error!`);
     } else {
         console.log('Nodemailer is running...');
     }
