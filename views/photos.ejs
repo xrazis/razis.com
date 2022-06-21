@@ -1,0 +1,37 @@
+<%- include('partials/html-top.ejs') %>
+<%- include('partials/nav.ejs') %>
+
+<% if (images) { %>
+    <section class="py-8">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 mx-auto">
+                    <div class="p-3 text-center mb-5">
+                        <div class="icon icon-shape icon-lg bg-gradient-primary shadow mx-auto">
+                            <i class="ni ni-album-2 text-white opacity-10 mt-2"></i>
+                        </div>
+                        <h2 class="mt-3"><%= t('photos.title') %></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="lightbox-room-1" class="container lightbox">
+            <div class="row min-vh-25">
+                <% images.forEach(image => { %>
+                    <div class="col-sm-4 col-12 mb-3 mt-3">
+                        <a href="/images/<%= image.name %>" target="_blank" class="lb"
+                           data-pswp-width="<%= image.width %>" data-pswp-height="<%= image.height %>">
+                            <img src="/images/<%= image.name %>"
+                                 alt="<%= image.name.replace(/\.webp/, '') %>"
+                                 class="w-100 h-100 border-radius-lg bg-cover" loading="lazy">
+                        </a>
+                    </div>
+                <% }); %>
+            </div>
+        </div>
+    </section>
+<% } %>
+
+<%- include('partials/effort-footer.ejs') %>
+<%- include('partials/social-footer.ejs') %>
+<%- include('partials/footer.ejs') %>

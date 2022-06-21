@@ -7,6 +7,7 @@ const fs = require('fs');
 const {email_user} = require('../config/keys');
 const transporter = require('../connections/mailer_conn');
 const {emailSchema} = require('../schemas/joi');
+const {getImagesFromDirs} = require('../actions/images');
 let sitemap;
 
 router.get('/', (req, res) => {
@@ -53,6 +54,22 @@ router.get('/terms-&-conditions', (req, res) => {
     res.render('terms-&-conditions');
 });
 
+router.get('/photos', (req, res) => {
+    const images = getImagesFromDirs([
+        'outdoors',
+        'indoors/apartments',
+        'indoors/budget-studios',
+        'indoors/maisonette',
+        'indoors/one-bedroom',
+        'indoors/pool-studios',
+        'indoors/storehouse',
+        'indoors/two-bedroom',
+        'indoors/writers-room',
+    ]);
+
+    res.render('photos', {images: images});
+});
+
 router.get('/espa', (req, res) => {
     res.render('espa');
 });
@@ -71,6 +88,7 @@ router.get('/sitemap.xml', (req, res) => {
 
         smStream.write({url: '/'});
         smStream.write({url: '/rooms'});
+        smStream.write({url: '/photos'});
         smStream.write({url: '/terms-&-conditions'});
         smStream.write({url: '/contact-us'});
         smStream.write({url: '/espa'});

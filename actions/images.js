@@ -21,5 +21,21 @@ module.exports = {
         } catch {
             return res.render(`rooms/${route}`, {route: route, images: false});
         }
+    },
+    getImagesFromDirs: (dirs) => {
+        let images = [];
+
+        try {
+            dirs.forEach(dir => {
+                fs.readdirSync(`./public/images/${dir}`).forEach(image => {
+                    const dimensions = sizeOf(`./public/images/${dir}/${image}`);
+                    images.push({name: `${dir}/${image}`, width: dimensions.width, height: dimensions.height});
+                });
+            });
+
+            return images;
+        } catch {
+            return images;
+        }
     }
 };
