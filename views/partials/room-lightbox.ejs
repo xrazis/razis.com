@@ -8,7 +8,7 @@
                            data-pswp-width="<%= image.width %>" data-pswp-height="<%= image.height %>">
                             <img src="/images/indoors/<%= route %>/<%= image.name %>"
                                  alt="<%= image.name.replace(/\.webp/, '') %>"
-                                 class="w-100 h-100 border-radius-lg bg-cover">
+                                 class="w-100 h-100 border-radius-lg bg-cover" loading="lazy">
                         </a>
                     </div>
                 <% }); %>
