@@ -1,3 +1,12 @@
+img {
+    opacity: 0;
+    transition: opacity 300ms ease-in-out;
+}
+
+img.loaded {
+    opacity: 1;
+}
+
 .espa-image {
     height: 80px;
     transform: scale(65%);
