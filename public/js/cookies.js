@@ -1,12 +1,12 @@
 const setCookie = (cookieName, cookieValue) => {
     let date = new Date();
     date.setTime(date.getTime() + (30 * 24 * 60 * 60 * 1000));
-    const expires = 'expires=' + date.toUTCString();
-    document.cookie = cookieName + '=' + cookieValue + '; ' + expires + '; path=/';
+    const expires = `expires=${date.toUTCString()}`;
+    document.cookie = `${cookieName}=${cookieValue}; ${expires}; path=/; SameSite=None; Secure`;
 };
 
 const getCookie = cookieName => {
-    const name = cookieName + '=';
+    const name = `${cookieName}=`;
     const cDecoded = decodeURIComponent(document.cookie);
     const cArr = cDecoded.split('; ');
     let res;
