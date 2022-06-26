@@ -19,7 +19,7 @@ module.exports = {
             content: ['**/*.ejs'],
             css: ['**/*.css'],
             safelist: {
-                standard: [/choices/, /flatpickr/],
+                standard: [/choices/, /flatpickr/, /pswp__img/],
                 deep: [/choices/, /flatpickr/],
                 greedy: [/choices/, /flatpickr/]
             },

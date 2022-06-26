@@ -7,6 +7,12 @@ img.loaded {
     opacity: 1;
 }
 
+.pswp__img {
+    opacity: 1;
+    border-radius: unset;
+    margin-top: unset;
+}
+
 .espa-image {
     height: 80px;
     transform: scale(65%);
