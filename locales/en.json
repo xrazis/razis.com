@@ -137,31 +137,33 @@
     "studios": {
       "title": "Studios",
       "desc": {
-        "1": "Our studios are perfect for a couple, or a lonely traveler. They consist of one double bed or two singles, with sea view or the beautiful village of Planos."
+        "1": "Our studios are perfect for a couple or a lonely traveler. They consist of one double bed or two singles, with a sea view or the beautiful village of Planos."
       }
     },
     "writers-room": {
       "title": "Writers Room",
       "desc": {
-        "1": "Legend has it that one Dutch writer lost his 'spark'. Weeks went by without touching a pen and he was becoming desperate.",
-        "2": "Whilst on vacation he used to sit on the balcony, overlooking the vast emptiness of the sea. Suddenly in a moment of Inspiration he grabbed his beloved pen and started writing without a stop.",
-        "3": "It was then that he knew there was something special about that room. Give yourself a chance to experience the writer's room and who know, you may find him wandering around."
+        "1": "Legend has it that one Dutch writer lost his spark. Weeks went by without touching a pen - he was becoming desperate.",
+        "2": "Whilst on vacation he used to sit on the balcony, overlooking the vast emptiness of the sea. Suddenly in a moment of inspiration, he grabbed his beloved pen and started writing without a stop.",
+        "3": "It was then that he knew there was something special about that room. Give yourself a chance to experience the writer's room and who knows, you may find him wandering around."
       }
     },
     "apartments": {
       "title": "Apartments",
       "desc": {
-        "1": "Razis apartments fall into three categories.",
-        "2": "Big family room, which can accommodate up to six people, maisonettes , which can accommodate up to six people , with two floors and an inner staircase and the clasic appartment, which can accommodate up to four people.",
-        "3": "All rooms have garden view or sea view, spacious and cozy, perfect for your family moments."
+        "1": "Razis apartments fall under three categories:",
+        "2": "One-bedroom apartments can accommodate up to four people.",
+        "3": "Two-bedroom apartments can accommodate up to six people.",
+        "4": "Maisonettes can accommodate up to six people with two floors and an inner staircase. This room type is not recommended for people with mobility problems or young children.",
+        "5": "All rooms have garden or sea view, and are spacious - perfect for your family moments."
       }
     },
     "storehouse": {
       "title": "Storehouse",
       "desc": {
-        "1": "The old storehouse is a beautiful old renovated building built in 1939.Its main use was an additional storage building for the large country house of the estate. The front ground floor was used for stabling the horses and donkeys while the separate back of the building was used to store the harvest of olives, currants, grain and cheese. The upper floor stored hay and other animal feed.",
-        "2": "The 1953 earthquake which razed Zakynthos destroyed the two storied farmhouse leaving the family unharmed and the store house intact and it was used until 1965.The time had come for the agricultural way of life to give way to the swiftly and steadily growing tourist industry. The store house was abandoned until the early 1980's when it was renovated and restored into a building suitable for habitation.",
-        "3": "The building is naturally insulated as the exterior walls are 70cm thick. The outside wood and white walls provide a welcoming atmosphere for a shady and beautiful veranda."
+        "1": "The old storehouse is a beautiful old renovated building built-in 1939. Its main use was as an additional storage building for the large country house of the estate. The front ground floor was used for stabling the horses and donkeys while the rest of the building was used to store the harvest of olives, currants, grain, and cheese. The upper floor stored hay and other animal feed.",
+        "2": "The 1953 earthquake, which razed Zakynthos, destroyed the two-storied farmhouse leaving the family unharmed and the storehouse intact. The time had come for the agricultural way of life to give way to the swiftly and steadily growing tourist industry. The storehouse was abandoned until early 1980s when it was renovated and restored into a building suitable for habitation. ",
+        "3": "The buildings insulation is unparalleled as the exterior walls are 1 meter thick. The exterior ocher walls provide a welcoming atmosphere for a shady and beautiful veranda."
       }
     },
     "tc": {
