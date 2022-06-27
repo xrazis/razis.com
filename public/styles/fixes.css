@@ -16,6 +16,7 @@ img.loaded {
 .espa-image {
     height: 80px;
     transform: scale(65%);
+    opacity: 0.8 !important;
 }
 
 #zakynthos-icons {
