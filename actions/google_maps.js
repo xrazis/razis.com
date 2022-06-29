@@ -19,7 +19,7 @@ module.exports = {
             res.on('end', () => {
                 try {
                     const data = JSON.parse(rawData);
-                    const reviews = data.result.reviews.reverse();
+                    const reviews = data.result.reviews;
                     xhr.status = data.status;
 
                     for (const review of reviews) {
