@@ -1,40 +1,126 @@
 <section class="py-5">
     <div class="container">
-        <div class="row text-center">
-            <div class="col-lg-3 col-md-6 mb-lg-0 mb-4">
-                <div class="info">
-                    <div class="icon icon-shape text-center">
-                        <i class="fa-solid fa-wifi h4 mb-4 text-info"></i>
-                    </div>
-                    <h5 class="mt-2">Wi-Fi</h5>
-                    <p><%= t('facilities.wifi') %></p>
-                </div>
+        <div class="row">
+            <div class="col-md-6 mx-auto text-center mb-5">
+                <h2 class="text-dark text-center"><%= t('facilities.title') %></h2>
             </div>
-            <div class="col-lg-3 col-md-6 mb-lg-0 mb-4">
-                <div class="info">
-                    <div class="icon icon-shape text-center">
-                        <i class="fa-solid fa-dumbbell h4 mb-4 text-info"></i>
+        </div>
+        <div class="row">
+            <div class="card shadow-lg">
+                <div class="row">
+                    <div class="col">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="container my-3">
+                                    <div class="row text-center">
+                                        <div class="col-lg-3 col-md-6 mb-lg-0 mb-4">
+                                            <div class="info">
+                                                <div class="icon icon-shape text-center">
+                                                    <i class="fa-solid fa-wifi h4 mb-4 text-info"></i>
+                                                </div>
+                                                <h5 class="mt-2">Wi-Fi</h5>
+                                                <p><%= t('facilities.wifi') %></p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 col-md-6 mb-lg-0 mb-4">
+                                            <div class="info">
+                                                <div class="icon icon-shape text-center">
+                                                    <i class="fa-solid fa-dumbbell h4 mb-4 text-info"></i>
+                                                </div>
+                                                <h5 class="mt-2"><%= t('facilities.gym-title') %></h5>
+                                                <p><%= t('facilities.gym') %></p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 col-md-6 mb-lg-0 mb-4">
+                                            <div class="info">
+                                                <div class="icon icon-shape text-center">
+                                                    <i class="fa-solid fa-soap h4 mb-4 text-info"></i>
+                                                </div>
+                                                <h5 class="mt-2"><%= t('facilities.washing-machine-title') %></h5>
+                                                <p><%= t('facilities.washing-machine') %></p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 col-md-6 mb-lg-0 mb-4">
+                                            <div class="info">
+                                                <div class="icon icon-shape text-center">
+                                                    <i class="fa-solid fa-face-smile-beam h4 mb-4 text-info"></i>
+                                                </div>
+                                                <h5 class="mt-2"><%= t('facilities.happy-title') %></h5>
+                                                <p><%= t('facilities.happy') %></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mt-5 mb-2">
+                                <div class="col-lg-2 col-12">
+                                    <h6 class="text-dark tet-uppercase"><%= t('facilities.small-title') %></h6>
+                                </div>
+                                <div class="col-9">
+                                    <hr class="horizontal dark">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-3 col-md-6 col-12 ps-0">
+                                    <div class="d-flex align-items-center p-2">
+                                        <i class="fas fa-check text-dark"></i>
+                                        <div>
+                                            <span class="ps-2"><%= t('facilities.amenities.1') %></span>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex align-items-center p-2">
+                                        <i class="fas fa-check text-dark"></i>
+                                        <div>
+                                            <span class="ps-2"><%= t('facilities.amenities.2') %></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-12 ps-0">
+                                    <div class="d-flex align-items-center p-2">
+                                        <i class="fas fa-check text-dark"></i>
+                                        <div>
+                                            <span class="ps-2"><%= t('facilities.amenities.3') %></span>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex align-items-center p-2">
+                                        <i class="fas fa-check text-dark"></i>
+                                        <div>
+                                            <span class="ps-2"><%= t('facilities.amenities.4') %></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3 col-md-6 col-12 ps-0">
+                                    <div class="d-flex align-items-center p-2">
+                                        <i class="fas fa-check text-dark"></i>
+                                        <div>
+                                            <span class="ps-2"><%= t('facilities.amenities.5') %></span>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex align-items-center p-2">
+                                        <i class="fas fa-check text-dark"></i>
+                                        <div>
+                                            <span class="ps-2"><%= t('facilities.amenities.6') %></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-12 ps-0">
+                                    <div class="d-flex align-items-center p-2">
+                                        <i class="fas fa-check text-dark"></i>
+                                        <div>
+                                            <span class="ps-2"><%= t('facilities.amenities.7') %></span>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex align-items-center p-2">
+                                        <i class="fas fa-check text-dark"></i>
+                                        <div>
+                                            <span class="ps-2"><%= t('facilities.amenities.8') %></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <h5 class="mt-2"><%= t('facilities.gym-title') %></h5>
-                    <p><%= t('facilities.gym') %></p>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 mb-lg-0 mb-4">
-                <div class="info">
-                    <div class="icon icon-shape text-center">
-                        <i class="fa-solid fa-soap h4 mb-4 text-info"></i>
-                    </div>
-                    <h5 class="mt-2"><%= t('facilities.washing-machine-title') %></h5>
-                    <p><%= t('facilities.washing-machine') %></p>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 mb-lg-0 mb-4">
-                <div class="info">
-                    <div class="icon icon-shape text-center">
-                        <i class="fa-solid fa-face-smile-beam h4 mb-4 text-info"></i>
-                    </div>
-                    <h5 class="mt-2"><%= t('facilities.happy-title') %></h5>
-                    <p><%= t('facilities.happy') %></p>
                 </div>
             </div>
         </div>
