@@ -4,7 +4,6 @@ const RateLimit = require('express-rate-limit');
 const cookieParser = require('cookie-parser');
 const compression = require('compression');
 const createError = require('http-errors');
-const CronJob = require('cron').CronJob;
 const express = require('express');
 const i18next = require('i18next');
 const logger = require('morgan');
@@ -24,13 +23,6 @@ const app = express();
 if (process.env.NODE_ENV === 'development') purgeCSS();
 
 getReviews();
-
-const job = new CronJob(
-    '00 00 00 * * *',
-    getReviews,
-);
-
-job.start();
 
 i18next
     .use(i18nextMiddleware.LanguageDetector)
