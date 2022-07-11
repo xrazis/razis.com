@@ -56,6 +56,19 @@ img.loaded {
     object-fit: cover;
 }
 
+.booking {
+    max-width: 20px;
+    max-height: 20px;
+    margin-bottom: 4px;
+}
+
+.trip-advisor {
+    max-width: 20px;
+    max-height: 20px;
+    margin-bottom: 3px;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(206deg) brightness(105%) contrast(103%);
+}
+
 @media (max-width: 991.98px) {
     #first-image-rooms,
     #second-image-rooms {
