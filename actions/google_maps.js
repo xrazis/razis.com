@@ -26,14 +26,13 @@ module.exports = {
                         if (review.rating >= 4) {
                             xhr.reviews.push({
                                 name: review.author_name,
-                                photo: review.profile_photo_url,
                                 rating: review.rating,
                                 text: review.text,
                                 relativeTime: review.relative_time_description,
                             });
                         }
 
-                        if (xhr.reviews.length >= 3) break
+                        if (xhr.reviews.length >= 3) break;
                     }
                 } catch (e) {
                     console.error(e.message);

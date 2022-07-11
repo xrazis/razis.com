@@ -1,1 +1,27 @@
-{"statusCode":200,"reviews":[{"name":"Diane Holmes","photo":"https://lh3.googleusercontent.com/a/AATXAJzeX7_zESkmjQXdA483YERGlL0vdoAqCOQphlmi=s128-c0x00000000-cc-rp-mo","rating":5,"text":"Gorgeous little place. Loved our rooms, owners and staff go above and beyond to do things for you. Cleaners were brilliant as well! Large rooms, really clean. Does an awesome breakfast and the pool is the best in the area in fairness! Stayed twice this year! 100% recommend!","relativeTime":"8 months ago"},{"name":"Stewart Mason","photo":"https://lh3.googleusercontent.com/a-/AOh14GhQ4qJVuih8_O2cSkrvBl2HRHxP08kt2Fa0ReE3zw=s128-c0x00000000-cc-rp-mo","rating":5,"text":"Excellent service  staff extremely helpful and friendly\nVery clean room","relativeTime":"10 months ago"},{"name":"Clive Fellows","photo":"https://lh3.googleusercontent.com/a/AATXAJxlyl6N7q-qCQD7ed21NM_Lskv2znPAmvc8WDFH=s128-c0x00000000-cc-rp-mo","rating":4,"text":"Good place to stay very helpful","relativeTime":"8 months ago"}],"status":"OK"}
+{
+  "statusCode": 200,
+  "reviews": [
+    {
+      "name": "mark gregory",
+      "photo": "https://lh3.googleusercontent.com/a/AItbvmm1WWl3SnIeemxTVXBrcA6CTYL8_71SR6Gic_6THA=s128-c0x00000000-cc-rp-mo",
+      "rating": 5,
+      "text": "It was a family run business and the family were fantastic.\nNo fighting for sunbeds around the pool.\nFantastic location.\nGood breakfast.\nIt's basic but it's OK.\n\nThanks 😊",
+      "relativeTime": "in the last week"
+    },
+    {
+      "name": "Eirik Hansen",
+      "photo": "https://lh3.googleusercontent.com/a/AItbvmlDOssmHsldReyTI-wDfd4lAKpqx1wHykk2o-tWSQ=s128-c0x00000000-cc-rp-mo",
+      "rating": 4,
+      "text": "Very close to the centre of Tsilivi but up a small but steep hill so fairly peaceful.\nNice pool , snacks and drinks from the bar. Various different rooms some overlooking the pool.\nLovely owners.",
+      "relativeTime": "a week ago"
+    },
+    {
+      "name": "Diane Walker",
+      "photo": "https://lh3.googleusercontent.com/a-/AFdZucoNMjWLZ0VMZ6CWzLV2oSE2qWc7exkgfX4VPFWLLg=s128-c0x00000000-cc-rp-mo-ba4",
+      "rating": 5,
+      "text": "Fantastic service, lovely clean rooms and pool. Bed a bit hard for me but didn't spoil a wonderful holiday. Staff very friendly and helpful.",
+      "relativeTime": "3 weeks ago"
+    }
+  ],
+  "status": "OK"
+}
