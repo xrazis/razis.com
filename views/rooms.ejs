@@ -2,7 +2,7 @@
 <%- include('partials/nav.ejs') %>
 
 <header>
-    <div id="zakynthos-icons" class="page-header min-vh-85">
+    <div id="zakynthos-icons" class="page-header min-vh-75">
         <div class="container lightbox my-auto">
             <div class="row">
                 <div class="col-lg-4 my-auto">
@@ -99,7 +99,7 @@
                             </a>
                         </h3>
                         <p>
-                            <%= t('room-types.studios-text') %>
+                            <%= t('studios.desc.1').substring(0, 150) %>...
                         </p>
                         <a href="rooms/studios" class="btn text-bolder bg-gradient-info btn text-bolder-sm w-50"
                            role="button">
@@ -113,21 +113,21 @@
                     <div class="col-lg-6 justify-content-center d-flex flex-column">
                         <div class="card rounded-3">
                             <div class="blur-shadow-image">
-                                <img src="/images/indoors/writers-room/writers-room-3.webp" alt="writers-room-3"
+                                <img src="/images/indoors/loft/loft-3.webp" alt="loft-3"
                                      class="img-fluid shadow rounded-3" loading="lazy">
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6 pe-lg-5 justify-content-center d-flex flex-column pt-lg-0 pt-3">
                         <h3>
-                            <a href="rooms/writers-room" class="text-dark text-decoration-underline-hover">
-                                <%= t('room-types.writers-room') %>
+                            <a href="rooms/loft" class="text-dark text-decoration-underline-hover">
+                                <%= t('room-types.loft') %>
                             </a>
                         </h3>
                         <p>
-                            <%= t('room-types.writers-room-text') %>
+                            <%= t('loft.desc.1').substring(0, 150) %>...
                         </p>
-                        <a href="rooms/writers-room" class="btn text-bolder bg-gradient-info btn text-bolder-sm w-50"
+                        <a href="rooms/loft" class="btn text-bolder bg-gradient-info btn text-bolder-sm w-50"
                            role="button">
                             <%= t('buttons.read-more') %>
                         </a>
@@ -151,7 +151,7 @@
                             </a>
                         </h3>
                         <p>
-                            <%= t('room-types.apartments-text') %>
+                            <%= t('apartments.desc.1').substring(0, 150) %>...
                         </p>
                         <a href="rooms/apartments" class="btn text-bolder bg-gradient-info btn text-bolder-sm w-50"
                            role="button">
@@ -177,7 +177,7 @@
                             </a>
                         </h3>
                         <p>
-                            <%= t('room-types.storehouse-text') %>
+                            <%= t('storehouse.desc.1').substring(0, 150) %>...
                         </p>
                         <a href="rooms/storehouse"
                            class="btn text-bolder text-bolder bg-gradient-info btn text-bolder-sm w-50" role="button">

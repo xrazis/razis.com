@@ -11,8 +11,8 @@ router.get('/rooms/storehouse', (req, res) => {
     determineRooms('storehouse', ['storehouse'], res);
 });
 
-router.get('/rooms/writers-room', (req, res) => {
-    determineRooms('writers-room', ['writers-room'], res);
+router.get('/rooms/loft', (req, res) => {
+    determineRooms('loft', ['loft'], res);
 });
 
 router.get('/rooms/apartments', (req, res) => {

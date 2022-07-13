@@ -86,8 +86,8 @@
       "title": "Room Types",
       "studios": "Studios",
       "studios-text": "Our studios are perfect for a couple, or a lonely traveler. They consist of one double bed or two singles, with sea view or the beautiful…\n",
-      "writers-room": "Writers Room",
-      "writers-room-text": "Legend has it that one Dutch writer lost his spark. Weeks went by without touching a pen and he was becoming desperate…\n",
+      "loft": "Loft",
+      "loft-text": "Legend has it that one Dutch writer lost his spark. Weeks went by without touching a pen and he was becoming desperate…\n",
       "apartments": "Apartments",
       "apartments-text": "Razis apartments fall into three categories. Big family room, which can accommodate up to six people, maisonettes…\n",
       "storehouse": "Storehouse",
@@ -143,7 +143,7 @@
         "1": "Our studios are perfect for a couple or a lonely traveler. They consist of one double bed or two singles, with a sea view or the beautiful village of Planos."
       }
     },
-    "writers-room": {
+    "loft": {
       "title": "Writers Room",
       "desc": {
         "1": "Legend has it that one Dutch writer lost his spark. Weeks went by without touching a pen - he was becoming desperate.",

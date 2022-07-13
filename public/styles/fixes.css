@@ -56,17 +56,43 @@ img.loaded {
     object-fit: cover;
 }
 
-.booking {
+.booking,
+.expedia,
+.trip-advisor {
+    height: 20px;
+    width: 20px;
     max-width: 20px;
     max-height: 20px;
+}
+
+.booking {
     margin-bottom: 4px;
 }
 
-.trip-advisor {
-    max-width: 20px;
-    max-height: 20px;
+.expedia {
+    height: 18px;
+    width: 18px;
     margin-bottom: 3px;
     filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(206deg) brightness(105%) contrast(103%);
+}
+
+.trip-advisor {
+    margin-bottom: 3px;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(206deg) brightness(105%) contrast(103%);
+}
+
+.booking.large,
+.expedia.large,
+.trip-advisor.large {
+    height: 40px;
+    width: 40px;
+    max-width: 40px;
+    max-height: 40px;
+}
+
+.expedia.large {
+    height: 35px;
+    width: 35px;
 }
 
 @media (max-width: 991.98px) {

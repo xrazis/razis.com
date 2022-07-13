@@ -64,7 +64,7 @@ router.get('/photos', (req, res) => {
         'indoors/pool-studios',
         'indoors/storehouse',
         'indoors/two-bedroom',
-        'indoors/writers-room',
+        'indoors/loft',
     ]);
 
     res.render('photos', {images: images});
@@ -94,7 +94,7 @@ router.get('/sitemap.xml', (req, res) => {
         smStream.write({url: '/espa'});
         smStream.write({url: '/rooms/studios'});
         smStream.write({url: '/rooms/apartments'});
-        smStream.write({url: '/rooms/writers-room'});
+        smStream.write({url: '/rooms/loft'});
         smStream.write({url: '/rooms/storehouse'});
 
         streamToPromise(pipeline).then(sm => sitemap = sm);
