@@ -1,8 +1,8 @@
-const {PurgeCSS} = require('purgecss')
+const {PurgeCSS} = require('purgecss');
 const fs = require('fs');
 
 module.exports = {
-    purgeCSS: async () => {
+    async purgeCSS() {
         let CSS = [
             ...fs.readdirSync(`./public/styles`).map(item => `./public/styles/${item}`),
             ...fs.readdirSync(`./public/assets/css`).map(item => `./public/assets/css/${item}`)

@@ -78,12 +78,12 @@ router.get('/sitemap.xml', (req, res) => {
     res.header('Content-Type', 'application/xml');
     res.header('Content-Encoding', 'gzip');
     if (sitemap) {
-        res.send(sitemap)
-        return
+        res.send(sitemap);
+        return;
     }
 
     try {
-        const smStream = new SitemapStream({hostname: 'https://razis.com/'})
+        const smStream = new SitemapStream({hostname: 'https://razis.com/'});
         const pipeline = smStream.pipe(createGzip());
 
         smStream.write({url: '/'});
@@ -100,7 +100,7 @@ router.get('/sitemap.xml', (req, res) => {
         streamToPromise(pipeline).then(sm => sitemap = sm);
         smStream.end();
         pipeline.pipe(res).on('error', e => {
-            throw e
+            throw e;
         });
     } catch (e) {
         console.error(e);

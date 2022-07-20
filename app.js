@@ -1,4 +1,4 @@
-const i18nextMiddleware = require('i18next-http-middleware')
+const i18nextMiddleware = require('i18next-http-middleware');
 const filesystemBackend = require('i18next-node-fs-backend');
 const RateLimit = require('express-rate-limit');
 const cookieParser = require('cookie-parser');
@@ -20,8 +20,7 @@ const {purgeCSS} = require('./actions/purge_css');
 
 const app = express();
 
-if (process.env.NODE_ENV === 'development') purgeCSS();
-
+if (process.env.NODE_ENV === 'development') purgeCSS().then(() => console.log('Purged css!'));
 getReviews();
 
 i18next

@@ -1,5 +1,5 @@
 if (document.getElementById('typed')) {
-    new Typed('#typed', {
+    const typed = new Typed('#typed', {
         stringsElement: '#typed-strings', typeSpeed: 90, backSpeed: 90, backDelay: 200, startDelay: 500, loop: true
     });
 }
@@ -28,7 +28,7 @@ if (document.querySelectorAll('[id^=choices]')) {
     const choices = document.querySelectorAll('[id^=choices]');
 
     choices.forEach((choice) => {
-        new Choices(choice, {
+        const choices = new Choices(choice, {
             searchEnabled: false
         });
     });

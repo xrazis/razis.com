@@ -13,14 +13,14 @@ const getCookie = cookieName => {
 
     cArr.forEach(val => {
         if (val.indexOf(name) === 0) res = val.substring(name.length);
-    })
+    });
 
     return res;
 };
 
 const deleteCookie = cookieName => {
     document.cookie = `${cookieName}=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/`;
-}
+};
 
 if (document.getElementById('cookies-alert')) {
     const alert = document.getElementById('cookies-alert');

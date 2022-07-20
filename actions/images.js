@@ -2,7 +2,7 @@ const fs = require('fs');
 const sizeOf = require('image-size');
 
 module.exports = {
-    determineRooms: (route, rooms, res) => {
+    determineRooms(route, rooms, res) {
         let images = [];
 
         try {
@@ -22,7 +22,7 @@ module.exports = {
             return res.render(`rooms/${route}`, {route: route, images: false});
         }
     },
-    getImagesFromDirs: (dirs) => {
+    getImagesFromDirs(dirs) {
         let images = [];
 
         try {
